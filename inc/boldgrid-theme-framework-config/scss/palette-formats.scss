@@ -1,0 +1,269 @@
+/*------------------------------------------------------------------------
+# Variables
+------------------------------------------------------------------------*/
+$rgba_3 : rgba($palette-primary_3, 0.30);
+$rgba_4 : rgba($palette-primary_4, 0.50);
+
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	a,
+	a:hover,
+	a:focus,
+	.widget-title,
+	.link-primary,
+	.link-primary:hover,
+	.link-primary:focus,
+	#secondary table th,
+	.gridblock .heading-alt,
+	#secondary .table-striped > tbody > tr #today a,
+	#secondary-menu .current-menu-item a,
+	#menu-primary .current-menu-item > a,
+	#tertiary-menu .current-menu-item a,
+	#footer-center-menu .current-menu-item a,
+	#menu-social .current-menu-item a,
+	.post .entry-title,
+	.single .entry-title {
+		color: $palette-primary_1;
+	}
+	#commentsubmit,
+	a.button-secondary,
+	input[type="submit"],
+	a.comment-reply-link {
+		background: $palette-primary_1 !important;
+		border: 2px solid $palette-primary_1 !important;
+		color: $text-contrast-palette-primary_1 !important;
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > .current-menu-parent > a {
+		background: none;
+		color:	$palette-primary_1;
+	}
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	    background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.navbar-default .navbar-toggle .icon-bar,
+	hr {
+	    background-color: $palette-primary_1;
+	}
+	.mod-blockquote,
+	blockquote {
+		border-left: 10px solid $palette-primary_1;
+	}
+	.form-submit .submit {
+		background: $text-contrast-palette-primary_1;
+		color: $palette-primary_1;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	#commentsubmit:hover,
+	#commentsubmit:focus,
+	a.comment-reply-link:hover,
+	a.comment-reply-link:focus {
+		background: none !important;
+		border: 2px solid $palette-primary_1 !important;
+		color: $palette-primary_1 !important;
+	}
+	.button-primary:hover,
+	.button-primary:focus,
+	.button-primary:active {
+		background: $palette-primary_1;
+		border: 2px solid $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.entry-title:before {
+		border-top: 2px solid $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.link-secondary,
+	.link-secondary:hover,
+	.link-secondary:focus,
+	#menu-social li a:hover,
+	#menu-social li a:focus,
+	#secondary-menu a[href]:hover,
+	#tertiary-menu a[href]:hover,
+	#footer-center-menu .menu-social a[href]:hover {
+		color: $palette-primary_2;
+	}
+	.widget-area {
+	    border: 1px solid $palette-primary_2;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+	    background-color: $text-contrast-palette-primary_2;
+	}
+	.dropdown-menu,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	caption,
+	.widget-area caption,
+	#secondary .widget-title,
+	#secondary .table > tbody > tr td,
+	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+		color: $text-contrast-palette-primary_3;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.call-to-action h3 {
+		color: $palette-primary_3;
+	}
+	.button-primary {
+		background: none;
+		border: 2px solid $palette-primary_3;
+		color: $palette-primary_3;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background: $text-contrast-palette-primary_3;
+	}
+	.call-to-action h2 {
+		border-bottom: 1px solid $palette-primary_3;
+		color: $palette-primary_3;
+	}
+	.mod-beta h3 {
+		border-bottom: 1px solid $palette-primary_3;
+	}
+	.mod-divider a {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.mod-divider::before,
+	.mod-divider::after {
+		border-top: 1px solid $palette-primary_3;
+	}
+	.wc-gallery img {
+		border: 6px solid $palette-primary_3;
+	}
+	.woocommerce table.shop_table,
+	.shop_table td,
+	.shop_table thead tr th,
+	.shop_table tbody th,
+	.shop_table tfoot td,
+	.shop_table tfoot th  {
+		border: 1px solid $palette-primary_3;
+	}
+	.mod-icon-hexagon::before {
+	    border-bottom: 25px solid $palette-primary_3;
+	    border-left: 50px solid transparent;
+	    border-right: 50px solid transparent;
+	}
+	.mod-icon-hexagon::after {
+	    border-left: 50px solid transparent;
+	    border-right: 50px solid transparent;
+	    border-top: 25px solid $palette-primary_3;
+	}
+	.mod-icon-hexagon {
+	    background: $palette-primary_3;
+	}
+	.showcoupon,
+	#payment label,
+	.showcoupon:hover,
+	.showcoupon:focus,
+	#payment .payment_box p,
+	.woocommerce-message a,
+	.woocommerce-message a:hover,
+	.woocommerce-message a:focus,
+	.black-studio-tinymce-widget p,
+	.payment_method_paypal label a,
+	.payment_method_paypal label a:hover,
+	.payment_method_paypal label a:focus,
+	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+		color: $text-contrast-palette-primary_3;
+	}
+
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	.background-overlay,
+	.entry-footer,
+	.mod-icon-circle i,
+	.disabled-footer .site-footer,
+	#boldgrid-sticky-filler {
+		background: $palette-primary_4;
+	}
+	.site-content {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	.fa-inverse {
+		color: $text-contrast-palette-primary_4;
+	}
+	.site-title a,
+	.site-description,
+	#menu-social a,
+	#menu-social li a,
+	#secondary-menu a,
+	#tertiary-menu a,
+	.mod-icon-hexagon i,
+	.navbar-default .navbar-nav > li > a {
+		color: $palette-primary_4;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: $palette-primary_4;
+	}
+	.background-alpha,
+	.background-beta,
+	.background-gamma {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	.site-footer {
+		background: $palette-primary_4;
+		border-top: 1px solid $text-contrast-palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	.entry-title,
+	.entry-title span {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+}
+
+.palette-primary.mce-content-body { 
+	background: $palette-primary_4 !important;
+	color: $text-contrast-palette-primary_4;
+}
+.blog .site-content {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
