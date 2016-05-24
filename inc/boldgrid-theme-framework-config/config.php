@@ -5,6 +5,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-venetian'; // Text domains
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 
 	/**
@@ -107,8 +108,30 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['colors']['light_text'] = '#ffffff';
 	$boldgrid_framework_configs['customizer-options']['colors']['dark_text'] = '#333333';
 
-	// Fonts & Icons
-	$boldgrid_framework_configs['font']['types'] = array ( 'Oswald:400,700|Droid+Serif:400,700' );
+	// Typography Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Oswald';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 16;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'none';
+
+	// Typography Alternate Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Droid Serif';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 18;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'none';
+
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
+
+
+	// Typography Navigation
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Oswald';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_size'] = 14;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'uppercase';
+
+	// Typography Body
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Droid Serif';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 160;
+
+	// Icons
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon-circle';
 
@@ -125,7 +148,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			<div class="col-sm-12 col-md-12">
 				<div class="call-to-action">
 					<h2>$cta_h2</h2>
-					<h3>$cta_h3</h3>
+					<h3 class="alt-font">$cta_h3</h3>
 					<p class="p-button-primary">
 						<a class="button-primary" href="contact-us">CONTACT US</a>
 					</p>

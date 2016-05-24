@@ -12,6 +12,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
+	.page-title,
 	a,
 	a:hover,
 	a:focus,
@@ -32,23 +33,18 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $palette-primary_1;
 	}
 	#commentsubmit,
-	a.button-secondary,
+	.button-secondary,
 	input[type="submit"],
-	a.comment-reply-link {
+	.comment-reply-link {
 		background: $palette-primary_1 !important;
 		border: 2px solid $palette-primary_1 !important;
 		color: $text-contrast-palette-primary_1 !important;
 	}
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus,
 	.navbar-default .navbar-nav > .open > a,
 	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus,
-	.navbar-default .navbar-nav > .active > a,
-	.navbar-default .navbar-nav > .active > a:hover,
-	.navbar-default .navbar-nav > .active > a:focus,
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus,
@@ -80,12 +76,13 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	}
 	.button-secondary:hover,
 	.button-secondary:focus,
+	.button-secondary:active,
 	input[type="submit"]:hover,
 	input[type="submit"]:focus,
 	#commentsubmit:hover,
 	#commentsubmit:focus,
-	a.comment-reply-link:hover,
-	a.comment-reply-link:focus {
+	.comment-reply-link:hover,
+	.comment-reply-link:focus {
 		background: none !important;
 		border: 2px solid $palette-primary_1 !important;
 		color: $palette-primary_1 !important;
@@ -104,6 +101,11 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## 2
 	-----------------------------------------------*/
+	button, 
+	input, 
+	optgroup, 
+	select, 
+	textarea,
 	.link-secondary,
 	.link-secondary:hover,
 	.link-secondary:focus,
@@ -130,6 +132,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## 3
 	-----------------------------------------------*/
+	#footer-center-menu a,
 	caption,
 	.widget-area caption,
 	#secondary .widget-title,
@@ -137,14 +140,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
 		color: $text-contrast-palette-primary_3;
 	}
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
 	.call-to-action h3 {
 		color: $palette-primary_3;
+		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
 	}
 	.button-primary {
 		background: none;
@@ -158,6 +156,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.call-to-action h2 {
 		border-bottom: 1px solid $palette-primary_3;
 		color: $palette-primary_3;
+		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
 	}
 	.mod-beta h3 {
 		border-bottom: 1px solid $palette-primary_3;
@@ -194,11 +193,14 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.mod-icon-hexagon {
 	    background: $palette-primary_3;
 	}
+	.form-control,
+	.media-heading,
 	.showcoupon,
-	#payment label,
 	.showcoupon:hover,
 	.showcoupon:focus,
+	#payment label,
 	#payment .payment_box p,
+	.comments-area .comment-content p,
 	.woocommerce-message a,
 	.woocommerce-message a:hover,
 	.woocommerce-message a:focus,
@@ -221,9 +223,14 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	#boldgrid-sticky-filler {
 		background: $palette-primary_4;
 	}
+	body,
 	.site-content {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
+	}
+	.site-header {
+		background: rgba(255,255,255,.50);
+		color: $palette-primary_4;
 	}
 	.fa-inverse {
 		color: $text-contrast-palette-primary_4;
@@ -257,13 +264,56 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-}
 
-.palette-primary.mce-content-body { 
-	background: $palette-primary_4 !important;
-	color: $text-contrast-palette-primary_4;
-}
-.blog .site-content {
-		background: $palette-primary_4;
+	/* sm */
+	@media (min-width: 768px) {
+		/* Dropdown Child Default */
+		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    	color: $text-contrast-palette-primary_4;
+		}
+	}
+
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
+	&.mce-content-body { 
+		background: $palette-primary_4 !important;
 		color: $text-contrast-palette-primary_4;
 	}
+	&.blog .site-content {
+			background: $palette-primary_4;
+			color: $text-contrast-palette-primary_4;
+		}
+	
+	h1,
+	h2 {
+		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
+	}
+	.mod-alpha img,
+	.mod-gamma img {
+		box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+	}
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button,
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
+	}
+	.background-beta:before,
+	.background-beta:after  {
+	    border-top: 700px solid rgba(255, 255, 255, 0.35);
+	}
+}
+	body:before,
+	body:after {
+		border-top: 700px solid rgba(255, 255, 255, 0.35);
+	}
+
