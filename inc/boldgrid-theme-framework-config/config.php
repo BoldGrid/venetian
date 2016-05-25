@@ -1,12 +1,32 @@
-<?php 
+<?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * General Configs
 	 */
-	$boldgrid_framework_configs['theme_name'] = 'boldgrid-venetian'; // Text domains
+	// Text Domain.
+	$boldgrid_framework_configs['theme_name'] = 'boldgrid-venetian';
+	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+	// Enable typography controls.
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+	// Enable attribution links.
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
+	// Enable template wrapper.
+	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
+	// Specify the parent theme's name.
+	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
+	// Select the footer template to use.
+	$boldgrid_framework_configs['template']['footer'] = '1';
+	// Select the header template to use.
+	$boldgrid_framework_configs['template']['header'] = 'generic';
+	// Assign menus, widgets, and actions to locations in generic header template.
+	$boldgrid_framework_configs['template']['locations']['header'] = array(
+		'6' => array( '[action]boldgrid_site_identity' ),
+		'7' => array( '[menu]tertiary' ),
+		'8' => array( '[widget]boldgrid-widget-1', '[menu]secondary', '[action]boldgrid_primary_navigation' ),
+		'9' => array( '[menu]social' ),
+		'10' => array( '[widget]boldgrid-widget-2' ),
+	);
 
 	/**
 	 * Customizer Configs
@@ -21,7 +41,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#777777',
 				'#ffffff',
 				'#2c3e50',
-			) 
+			)
 		),
 		array (
 			'format' => 'palette-primary',
@@ -30,7 +50,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#07c0ea',
 				'#aedd2b',
 				'#0a5483',
-			) 
+			)
 		),
 		array (
 			'format' => 'palette-primary',
@@ -39,7 +59,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#cde5a9',
 				'#effce5',
 				'#9cad9a',
-			) 
+			)
 		),
 		array (
 			'format' => 'palette-primary',
@@ -48,7 +68,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#7c516a',
 				'#c6ab95',
 				'#2b222c',
-			) 
+			)
 		),
 		array (
 			'format' => 'palette-primary',
@@ -57,7 +77,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#f4a6b3',
 				'#eac9ca',
 				'#6c5b7b',
-			) 
+			)
 		),
 	);
 
@@ -67,7 +87,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	if ( !empty( $boldgrid_install_options['subcategory_id'] ) ) {
 		$subcategory_id = $boldgrid_install_options['subcategory_id'];
 	}
-	
+
 	// Override Options per Subcategory
 	switch ( $subcategory_id ) {
 		case 11: //<-- Design
@@ -139,7 +159,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Header";
 	$boldgrid_framework_configs['menu']['locations']['social'] = "Upper Right";
-	
+
 	/**
 	 * Widgets
 	 */
@@ -153,7 +173,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 						<a class="button-primary" href="contact-us">CONTACT US</a>
 					</p>
 				</div>
-			</div> 
+			</div>
 			<div class="col-md-6"></div>
 		</div><!-- .row -->
 HTML;
