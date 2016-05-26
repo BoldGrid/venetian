@@ -101,7 +101,7 @@ body:before {
 	width: 38%;
 }
 body:after {
-	border-left: 280px solid transparent; 
+	border-left: 280px solid transparent;
 	width: 38%;
 }
 
@@ -113,7 +113,7 @@ body:after {
 
 	}
 	body:after {
-		border-left: 600px solid transparent; 
+		border-left: 600px solid transparent;
 		width: 65%;
 	}
 }
@@ -121,11 +121,11 @@ body:after {
 /* md */
 @media (min-width: 992px) {
 	body:before {
-		border-right: 980px solid transparent; 
+		border-right: 980px solid transparent;
 		width: 59%;
 	}
 	body:after {
-		border-left: 980px solid transparent; 
+		border-left: 980px solid transparent;
 		width: 59%;
 	}
 }
@@ -168,15 +168,15 @@ h2.h3 {
 a {
 	text-decoration: underline;
 }
-a:hover, 
+a:hover,
 a:focus {
 	text-decoration: none;
 }
-.link-primary:hover, 
+.link-primary:hover,
 .link-primary:focus {
 	text-decoration: none;
 }
-.link-secondary:hover, 
+.link-secondary:hover,
 .link-secondary:focus {
 	text-decoration: none;
 }
@@ -251,7 +251,7 @@ input[type="submit"],
     text-decoration: none;
 }
 .menu-social {
-	text-align: center;	
+	text-align: center;
 }
 #menu-social li a {
 	text-align: right;
@@ -290,7 +290,7 @@ input[type="submit"],
 .showcoupon,
 .payment_method_paypal label a,
 .woocommerce-message a {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 .showcoupon:hover,
 .showcoupon:focus,
@@ -298,7 +298,7 @@ input[type="submit"],
 .payment_method_paypal label a:focus,
 .woocommerce-message a:hover,
 .woocommerce-message a:focus {
-	text-decoration: none;	
+	text-decoration: none;
 }
 .woocommerce h2 {
 	font-size: 20px;
@@ -393,15 +393,15 @@ label {
     content:"";
 	left: 0;
     margin: 0 auto;
-    position: absolute; 
+    position: absolute;
     right: 0;
-	top: 50%;   
+	top: 50%;
     width: 100%;
     z-index: -1;
 }
-.entry-title span { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    padding: 0 15px; 
+.entry-title span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    padding: 0 15px;
 }
 
 /*-----------------------------------------------
@@ -562,12 +562,12 @@ hr {
 .navbar-nav > li > a {
     padding: 12px 10px;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
 }
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
 }
@@ -596,8 +596,8 @@ hr {
 }
 
 /* Dropdown Parent */
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .current-menu-parent > a {
 	background: none;
@@ -650,7 +650,7 @@ hr {
 }
 #menu-social ul li {
     position: relative;
-    display:  inline-block;    
+    display:  inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -672,14 +672,14 @@ hr {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -724,7 +724,7 @@ hr {
 }
 
 .hentry {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 .home .entry-footer {
@@ -737,7 +737,7 @@ hr {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -813,10 +813,10 @@ hr {
 
 
 /* Blockquote */
-.mod-blockquote, 
+.mod-blockquote,
 blockquote {
 	padding-bottom: 0;
-	
+
 }
 .mod-blockquote p,
 blockquote p {
@@ -859,11 +859,11 @@ blockquote {
 -----------------------------------------------*/
 .background-alpha {
 	min-height: 650px;
-	padding-top: 40px;	
+	padding-top: 40px;
 	position: relative;
 }
 .mod-alpha {
-	
+
 }
 
 /* xs */
@@ -884,11 +884,11 @@ blockquote {
 .background-beta {
 	min-height: 710px;
 	padding-top: 40px;
-	position: relative;	
+	position: relative;
 	z-index: 1;
 }
 .mod-beta {
-	
+
 }
 .background-beta:before {
     content: "";
@@ -915,7 +915,7 @@ blockquote {
 	width: 38%;
 }
 .background-beta:after {
-	border-left: 280px solid transparent; 
+	border-left: 280px solid transparent;
 	width: 38%;
 }
 
@@ -926,7 +926,7 @@ blockquote {
 		width: 65%;
 	}
 	.background-beta:after {
-		border-left: 600px solid transparent; 
+		border-left: 600px solid transparent;
 		width: 65%;
 	}
 }
@@ -934,11 +934,11 @@ blockquote {
 /* md */
 @media (min-width: 992px) {
 	.background-beta:before {
-		border-right: 980px solid transparent; 
+		border-right: 980px solid transparent;
 		width: 59%;
 	}
 	.background-beta:after {
-		border-left: 980px solid transparent; 
+		border-left: 980px solid transparent;
 		width: 59%;
 	}
 }
@@ -947,9 +947,9 @@ blockquote {
 ## Gamma
 -----------------------------------------------*/
 .background-gamma {
-	min-height: 650px;	
+	min-height: 650px;
 	padding-top: 40px;
-	position: relative;	
+	position: relative;
 }
 
 /*------------------------------------------------------------------------
@@ -973,7 +973,7 @@ blockquote {
 
 /* Call to Action */
 .single .call-to-action {
-	display: none;	
+	display: none;
 }
 
 /* Buttons */
@@ -995,7 +995,7 @@ blockquote {
 	margin: 2em 0 0;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
-	background: none;	
+	background: none;
 }
 .woocommerce p.buttons a.button:hover {
     background-image: none;
