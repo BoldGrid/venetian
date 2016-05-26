@@ -306,18 +306,6 @@ input[type="submit"],
 label {
 	text-transform: uppercase;
 }
-.site-footer p,
-.site-info,
-.attribution {
-	text-align: center;
-}
-.site-footer a {
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	text-decoration: none;
-}
 
 /* xs */
 .site-title,
@@ -325,8 +313,6 @@ label {
 	text-align: center;
 }
 .call-to-action h2 {
-	font-size: 70px; /* Specified font size separate from headings */
-	line-height: 80px;
 	font-weight: 700;
 }
 .navbar-default .navbar-nav,
