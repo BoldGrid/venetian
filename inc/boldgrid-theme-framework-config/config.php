@@ -178,7 +178,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2'] = array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 4.4,
+		'amount' => 5.9,
 	);
 
 	// Icons.
