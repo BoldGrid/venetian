@@ -174,6 +174,13 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 160;
 
+	// Add a Typography Selector for Call To Action.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 4.4,
+	);
+
 	// Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon-circle';
