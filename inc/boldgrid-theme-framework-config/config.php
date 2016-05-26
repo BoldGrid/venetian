@@ -2,45 +2,54 @@
 /**
  * This is responsible for setting the theme's configurable options.
  *
- * @package BoldGrid Theme
+ * @package Venetian
  */
 
 /**
- * Set the Theme's Configuration Options.
+ * Set Theme's Configuration Options.
  *
  * @since 1.0.0
  * @param array $boldgrid_framework_configs Array of boldgrid framework configurations.
  */
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
+
 	// Text Domain.
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-venetian';
+
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+
 	// Enable typography controls.
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+
 	// Enable attribution links.
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
+
 	// Enable template wrapper.
 	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
+
 	// Specify the parent theme's name.
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
+
 	// Select the footer template to use.
 	$boldgrid_framework_configs['template']['footer'] = '1';
-	// Select the header template to use.
-	$boldgrid_framework_configs['template']['header'] = '2';
-	// Assign menus, widgets, and actions to locations in generic header template.
-	$boldgrid_framework_configs['template']['locations']['header'] = array(
-		'6' => array( '[action]boldgrid_site_identity' ),
-		'7' => array( '[menu]tertiary' ),
-		'8' => array( '[widget]boldgrid-widget-1', '[menu]secondary', '[action]boldgrid_primary_navigation' ),
-		'9' => array( '[menu]social' ),
-		'10' => array( '[widget]boldgrid-widget-2' ),
-	);
 
-	/**
-	 * Customizer Configs
-	 */
+	// Select the header template to use.
+	$boldgrid_framework_configs['template']['header'] = '3';
+
+	// Set the Call To Action Widget to be on Home Page Only.
+	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
+
+	// Remove Container ID that is targetted by navbar-toggle.
+	$boldgrid_framework_configs['menu']['prototype']['primary']['container_id'] = 'primary-menu';
+
+	// Remove the container classes that are targetted with navbar-collapse.
+	$boldgrid_framework_configs['menu']['prototype']['primary']['container_class'] = 'primary-menu';
+
+	// Enable BoldGrid Color Palette System.
 	$boldgrid_framework_configs['customizer-options']['colors']['enabled'] = true;
+
+	// Default Color Palettes.
 	$boldgrid_framework_configs['customizer-options']['colors']['defaults'] = array(
 		array(
 			'default' => true,
