@@ -73,22 +73,22 @@ body {
 	margin: 0;
 }
 body:before {
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
 }
 body:after {
-    content: "";
-    display: block;
-    height: 100%;
-    right: 0;
-    position: absolute;
-    top: 0;
-    z-index: -10;
+	content: "";
+	display: block;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	z-index: -10;
 }
 body.mce-content-body:before,
 body.mce-content-body:after {
@@ -135,7 +135,7 @@ body:after {
 -----------------------------------------------*/
 /* Fix for admin bar from being pushed down when logged in */
 #wpadminbar {
-    position: fixed;
+	position: fixed;
 }
 
 /*-----------------------------------------------
@@ -148,7 +148,7 @@ p {
 	margin-bottom: 15px;
 }
 body {
-  	font-weight: 400;
+	font-weight: 400;
 }
 h2 {
 	font-weight: 400;
@@ -157,8 +157,8 @@ h2.h3 {
 	font-weight: 700;
 }
 .page-title {
-    font-weight: 400;
-    text-align: center;
+	font-weight: 400;
+	text-align: center;
 }
 .entry-title {
 	font-weight: 600;
@@ -189,18 +189,18 @@ input[type="submit"]:focus {
 	text-decoration: none;
 }
 .button-primary {
-    font-family: "Oswald"; /* different font from body text */
-    font-size: 21px; /* Specified font size*/
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
+	font-family: "Oswald"; /* different font from body text */
+	font-size: 21px; /* Specified font size*/
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .button-secondary,
 input[type="submit"],
 #commentsubmit,
 .comment-reply-link {
-    font-weight: 400;
-    text-decoration: none;
+	font-weight: 400;
+	text-decoration: none;
 }
 .comment-reply-link {
 	font-weight: 400;
@@ -238,17 +238,17 @@ input[type="submit"],
 #tertiary-menu a,
 #menu-social a {
 	text-decoration: none;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 #secondary-menu,
 #tertiary-menu {
-    text-align: center;
+	text-align: center;
 }
 #secondary-menu .current-menu-item a,
 #tertiary-menu .current-menu-item a,
 #footer-center-menu .current-menu-item a,
 #menu-social .current-menu-item a {
-    text-decoration: none;
+	text-decoration: none;
 }
 .menu-social {
 	text-align: center;
@@ -261,31 +261,31 @@ input[type="submit"],
 	font-weight: 400;
 }
 .mod-blockquote p, blockquote p {
-    font-size: 24px; /* different font size from body text */
-    line-height: 28px;
+	font-size: 24px; /* different font size from body text */
+	line-height: 28px;
 }
 .mod-divider {
-    text-align: center;
-    text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
 }
 .mod-divider p {
 	text-align: center;
 }
 .mod-icon-circle i {
-    font-size: 30px; /* Specified font size for icons */
+	font-size: 30px; /* Specified font size for icons */
 }
 .mod-divider {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 .background-alpha h2 {
 	text-align: center;
 }
 .widget-title {
-    font-weight: 400;
-    text-shadow: none;
+	font-weight: 400;
+	text-shadow: none;
 }
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .showcoupon,
 .payment_method_paypal label a,
@@ -304,7 +304,7 @@ input[type="submit"],
 	font-size: 20px;
 }
 label {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .site-footer p,
 .site-info,
@@ -347,7 +347,7 @@ label {
 	.button-primary,
 	.button-secondary,
 	.call-to-action .p-button-primary {
-    	white-space: nowrap;
+		white-space: nowrap;
 	}
 	.call-to-action h2 {
 		font-size: 95px; /* Specified font size separate from headings */
@@ -362,7 +362,7 @@ label {
 		text-align: left;
 	}
 	.menu-social {
-	    text-align: right;
+		text-align: right;
 	}
 }
 
@@ -386,22 +386,22 @@ label {
 	display: block;
 	margin: 60px 0;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 .entry-title:before {
 	bottom: 0;
-    content:"";
+	content:"";
 	left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
 	top: 50%;
-    width: 100%;
-    z-index: -1;
+	width: 100%;
+	z-index: -1;
 }
 .entry-title span {
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */
-    padding: 0 15px;
+	/* to hide the lines from behind the text, you have to set the background color the same as the container */
+	padding: 0 15px;
 }
 
 /*-----------------------------------------------
@@ -414,9 +414,9 @@ label {
 /* Button Primary */
 .button-primary {
 	background: none;
-    margin: 10px 0;
-    padding: 10px 25px;
-    transition: all 0.5s ease 0s;
+	margin: 10px 0;
+	padding: 10px 25px;
+	transition: all 0.5s ease 0s;
 }
 
 /* Button Secondary */
@@ -424,11 +424,11 @@ label {
 input[type="submit"],
 #commentsubmit,
 .comment-reply-link {
-    margin: 10px 0;
-    padding: 10px 25px;
-    transition: all 0.5s ease 0s;
-    /* Border Radius */
-    -webkit-border-radius: 0px;
+	margin: 10px 0;
+	padding: 10px 25px;
+	transition: all 0.5s ease 0s;
+	/* Border Radius */
+	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
@@ -466,7 +466,7 @@ input[type="submit"]:focus,
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 .call-to-action .p-button-primary {
 	margin-top: 0;
@@ -478,7 +478,7 @@ input[type="submit"]:focus,
 	.button-secondary,
 	.call-to-action .p-button-primary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin: 35px 0 25px;
@@ -497,8 +497,8 @@ hr {
 # Header
 ------------------------------------------------------------------------*/
 .site-header {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 
 /* Call To Action */
@@ -548,7 +548,7 @@ hr {
 	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
-    border-radius: 0;
+	border-radius: 0;
 }
 .navbar-default {
 	background: none;
@@ -560,7 +560,7 @@ hr {
 
 /* Links */
 .navbar-nav > li > a {
-    padding: 12px 10px;
+	padding: 12px 10px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -575,15 +575,15 @@ hr {
 	margin-left: 0;
 }
 #primary-navbar {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 /* Center Icons in Nav */
 #site-navigation ul li.menu-social a {
-    padding: 0;
+	padding: 0;
 }
 .navbar-nav > li {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 /* Hover & Active */
@@ -620,15 +620,15 @@ hr {
 }
 #secondary-menu,
 #tertiary-menu {
-    background: none;
-    position: relative;
-    z-index: 1;
+	background: none;
+	position: relative;
+	z-index: 1;
 }
 .boldgrid-framework-menu li::after {
 	content: none;
 }
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
-    content: "";
+	content: "";
 }
 
 /*-----------------------------------------------
@@ -649,8 +649,8 @@ hr {
 	padding-left: 0px;
 }
 #menu-social ul li {
-    position: relative;
-    display:  inline-block;
+	position: relative;
+	display:  inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -660,7 +660,7 @@ hr {
 @media (min-width: 768px) {
 	.menu-social {
 		margin-top: 15px;
-	    padding-right: 15px;
+		padding-right: 15px;
 	}
 
 }
@@ -728,7 +728,7 @@ hr {
 }
 
 .home .entry-footer {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 /* Images */
@@ -748,28 +748,28 @@ hr {
 -----------------------------------------------*/
 /* Divider */
 .mod-divider {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 .mod-divider p {
 	margin-top: -45px;
 }
 .mod-icon-circle i {
-    border-radius: 50%;
-    padding: 23px;
+	border-radius: 50%;
+	padding: 23px;
 }
 .mod-divider {
 	display: table;
-    margin: 0 auto;
-    width: 94%;
+	margin: 0 auto;
+	width: 94%;
 }
 .mod-divider::before,
 .mod-divider::after {
-    content: "";
-    display: table-cell;
-    position: relative;
-    top: 2.5em;
-    width: 50%;
+	content: "";
+	display: table-cell;
+	position: relative;
+	top: 2.5em;
+	width: 50%;
 }
 .mod-divider::before {
 	right: 3%;
@@ -780,35 +780,35 @@ hr {
 
 /* Hexagon Shape with Icon */
 .mod-icon-hexagon::before {
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    content: "";
-    height: 0;
-    left: 0;
-    position: absolute;
-    top: -25px;
-    width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	top: -25px;
+	width: 0;
 }
 .mod-icon-hexagon::after {
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    bottom: -25px;
-    content: "";
-    height: 0;
-    left: 0;
-    position: absolute;
-    width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	bottom: -25px;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	width: 0;
 }
 .mod-icon-hexagon {
-    display: inline-block;
-    height: 55px;
-    margin: 40px;
-    position: relative;
-    width: 100px;
+	display: inline-block;
+	height: 55px;
+	margin: 40px;
+	position: relative;
+	width: 100px;
 }
 .mod-icon-hexagon i {
-    padding: 2px 0 0;
-    width: 100%;
+	padding: 2px 0 0;
+	width: 100%;
 }
 
 
@@ -826,8 +826,8 @@ blockquote p {
 /* Vertical Alignment */
 .vertical-align-baseline,
 .vertical-align-center {
-    display: inline;
-    align-items: center;
+	display: inline;
+	align-items: center;
 }
 
 /* xs */
@@ -840,12 +840,12 @@ blockquote {
 @media (min-width: 992px) {
 	/* Vertical Alignment */
 	.vertical-align-baseline {
-	    display: flex;
-	    align-items: baseline;
+		display: flex;
+		align-items: baseline;
 	}
 	.vertical-align-center {
 		display: flex;
-	    align-items: center;
+		align-items: center;
 	}
 	.mod-blockquote,
 	blockquote {
@@ -891,22 +891,22 @@ blockquote {
 
 }
 .background-beta:before {
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
 }
 .background-beta:after {
-    content: "";
-    display: block;
-    height: 100%;
-    right: 0;
-    position: absolute;
-    top: 0;
-    z-index: -10;
+	content: "";
+	display: block;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	z-index: -10;
 }
 
 /* xs */
@@ -961,14 +961,14 @@ blockquote {
 ------------------------------------------------------------------------*/
 .widget-area {
 	margin-top: 25px;
-    padding: 25px;
-    list-style:none;
+	padding: 25px;
+	list-style:none;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /* Call to Action */
@@ -981,7 +981,7 @@ blockquote {
 	margin-bottom: 10px;
 }
 #commentform p.form-submit {
-    float: none;
+	float: none;
 }
 
 /*------------------------------------------------------------------------
@@ -998,7 +998,7 @@ blockquote {
 	background: none;
 }
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 
 /*-----------------------------------------------
@@ -1014,7 +1014,7 @@ blockquote {
 -----------------------------------------------*/
 #media-upload:before,
 #media-upload:after {
-    display: none;
+	display: none;
 }
 
 /*------------------------------------------------------------------------
@@ -1064,7 +1064,7 @@ html, body, .site, .site-content {
 	height: 100%;
 }
 #boldgrid-sticky-wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
