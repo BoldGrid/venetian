@@ -66,8 +66,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	hr {
 	    background-color: $palette-primary_1;
 	}
-	.mod-blockquote,
-	blockquote {
+	blockquote,
+	.mod-blockquote {
 		border-left: 10px solid $palette-primary_1;
 	}
 	.form-submit .submit {

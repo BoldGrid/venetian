@@ -1,10 +1,10 @@
 /*
 Theme Name: Venetian
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/venetian
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/venetian
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.11
+Version: 1.12
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-venetian
@@ -29,7 +29,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
 # Modules
 	## Universal
 	## Global
@@ -39,6 +38,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 # Pages
 # Posts
 # Plugins
+	## BoldGrid Editor
 	## WooCommerce
 # Footer
 ------------------------------------------------------------------------*/
@@ -132,7 +132,6 @@ body:after {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-/* Fix for admin bar from being pushed down when logged in */
 #wpadminbar {
     position: fixed;
 }
@@ -140,175 +139,71 @@ body:after {
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
+h2.h3,
+.call-to-action h2,
+.entry-title {
+	font-weight: bold;
+}
+.call-to-action h3 {
+	font-style: italic;	
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 1em 0;
 }
 p {
 	margin-bottom: 15px;
 }
-body {
-  	font-weight: 400;
+.widget-title {
+    text-shadow: none;
 }
-h2 {
-	font-weight: 400;
+.mod-divider,
+.gridblock .p-button-primary {
+	white-space: nowrap;
 }
-h2.h3 {
-	font-weight: 700;
+#menu-social li a {
+	-webkit-font-smoothing: antialiased;
 }
-.page-title {
-    font-weight: 400;
-    text-align: center;
-}
-.entry-title {
-	font-weight: 600;
-	text-align: center;
-	text-transform: uppercase;
-}
-a {
-	text-decoration: underline;
+a,
+.showcoupon,
+.woocommerce-message a,
+.payment_method_paypal label a {
+	text-decoration: underline;	
 }
 a:hover, 
-a:focus {
-	text-decoration: none;
-}
+a:focus,
 .link-primary:hover, 
-.link-primary:focus {
-	text-decoration: none;
-}
+.link-primary:focus,
 .link-secondary:hover, 
-.link-secondary:focus {
-	text-decoration: none;
-}
+.link-secondary:focus,
+.button-primary,
 .button-primary:hover,
 .button-primary:active,
 .button-secondary:hover,
 .button-secondary:active
 input[type="submit"]:hover,
-input[type="submit"]:focus {
-	text-decoration: none;
-}
-.button-primary {
-    font-family: "Oswald"; /* different font from body text */
-    font-size: 21px; /* Specified font size*/
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+input[type="submit"]:focus,
 .button-secondary,
 input[type="submit"],
 #commentsubmit,
-.comment-reply-link {
-    font-weight: 400;
-    text-decoration: none;
-}
-.comment-reply-link {
-	font-weight: 400;
-	text-transform: uppercase;
-}
-.gridblock .p-button-primary {
-	white-space: nowrap;
-}
-.site-title {
-	font-weight: normal;
-}
-
-/* Call To Action */
-.call-to-action {
-	text-align: center;
-}
-.call-to-action h3 {
-	font-style: italic;
-	font-weight: 400;
-	line-height: 30px;
-	text-align: center;
-}
-#site-navigation {
-	font-weight: 400;
-	text-transform: uppercase;
-}
-.navbar-default .navbar-nav > li > a {
-	font-weight: 400;
-	text-decoration: none;
-}
-.dropdown-menu > li > a {
-	text-decoration: none;
-}
+.comment-reply-link,
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a,
 #secondary-menu a,
 #tertiary-menu a,
-#menu-social a {
-	text-decoration: none;
-    text-transform: uppercase;
-}
-#secondary-menu,
-#tertiary-menu {
-    text-align: center;
-}
-#secondary-menu .current-menu-item a,
-#tertiary-menu .current-menu-item a,
-#footer-center-menu .current-menu-item a,
-#menu-social .current-menu-item a {
-    text-decoration: none;
-}
-.menu-social {
-	text-align: center;	
-}
-#menu-social li a {
-	text-align: right;
-	-webkit-font-smoothing: antialiased;
-}
-.gridblock .heading-alt {
-	font-weight: 400;
-}
-.mod-blockquote p, blockquote p {
-    font-size: 24px; /* different font size from body text */
-    line-height: 28px;
-}
-.mod-divider {
-    text-align: center;
-    text-transform: uppercase;
-}
-.mod-divider p {
-	text-align: center;
-}
-.mod-icon-circle i {
-    font-size: 30px; /* Specified font size for icons */
-}
-.mod-divider {
-    white-space: nowrap;
-}
-.background-alpha h2 {
-	text-align: center;
-}
-.widget-title {
-    font-weight: 400;
-    text-shadow: none;
-}
-.woocommerce p.buttons a.button:hover {
-    text-decoration: none;
-}
-.showcoupon,
-.payment_method_paypal label a,
-.woocommerce-message a {
-	text-decoration: underline;	
-}
+#menu-social a,
 .showcoupon:hover,
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
 .payment_method_paypal label a:focus,
 .woocommerce-message a:hover,
-.woocommerce-message a:focus {
-	text-decoration: none;	
-}
-.woocommerce h2 {
-	font-size: 20px;
-}
-label {
-    text-transform: uppercase;
-}
-.site-footer p,
-.site-info,
-.attribution {
-	text-align: center;
+.woocommerce-message a:focus,
+#secondary-menu .current-menu-item a,
+#tertiary-menu .current-menu-item a,
+#footer-center-menu .current-menu-item a,
+#menu-social .current-menu-item a,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus {
+    text-decoration: none;
 }
 .site-footer a {
 	text-decoration: underline;
@@ -317,22 +212,35 @@ label {
 .site-footer a:focus {
 	text-decoration: none;
 }
+.call-to-action,
+.call-to-action h3,
+.entry-title,
+.page-title,
+.mod-divider,
+.mod-divider p,
+.background-alpha h2,
+#secondary-menu,
+#tertiary-menu,
+.site-footer p,
+.site-info,
+.attribution,
+.menu-social {
+	text-align: center;	
+}
+#menu-social li a {
+	text-align: right;
+}
+
+/* Icon Sizes */
+.mod-icon-circle i {
+    font-size: 30px;
+}
 
 /* xs */
 .site-title,
-.site-description {
-	text-align: center;
-}
-.call-to-action h2 {
-	font-size: 70px; /* Specified font size separate from headings */
-	line-height: 80px;
-	font-weight: 700;
-}
+.site-description,
 .navbar-default .navbar-nav,
-.navbar-default .navbar-nav .open .dropdown-menu {
-	text-align: center;
-}
-
+.navbar-default .navbar-nav .open .dropdown-menu,
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -348,14 +256,8 @@ label {
 	.call-to-action .p-button-primary {
     	white-space: nowrap;
 	}
-	.call-to-action h2 {
-		font-size: 95px; /* Specified font size separate from headings */
-		line-height: 105px;
-	}
 	.site-title,
-	.site-description  {
-		text-align: left;
-	}
+	.site-description,
 	.navbar-default .navbar-nav,
 	.navbar-default .navbar-nav .open .dropdown-menu {
 		text-align: left;
@@ -375,6 +277,7 @@ label {
 		text-align: left;
 	}
 }
+
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
@@ -399,13 +302,16 @@ label {
     z-index: -1;
 }
 .entry-title span { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
     padding: 0 15px; 
 }
 
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -518,17 +424,16 @@ hr {
 /* sm */
 @media (min-width: 768px) {
 	.call-to-action {
-		margin-top: 75px;
 		margin-bottom: 75px;
+		margin-top: 75px;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
-	/* Call to Action */
 	.call-to-action {
-		margin-top: 100px;
-		margin-bottom: 150px;
+		margin-bottom: 200px;
+		margin-top: 200px;
 	}
 }
 
@@ -539,7 +444,6 @@ hr {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	background-color: none;
 	border: none;
@@ -684,10 +588,6 @@ hr {
 	margin: 10px 0;
 }
 
-/*-----------------------------------------------
-## Alternates
------------------------------------------------*/
-
 /*------------------------------------------------------------------------
 # Modules
 ------------------------------------------------------------------------*/
@@ -745,7 +645,6 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-/* Divider */
 .mod-divider {
     position: relative;
     z-index: 1;
@@ -776,8 +675,6 @@ hr {
 .mod-divider::after {
 	left: 3%;
 }
-
-/* Hexagon Shape with Icon */
 .mod-icon-hexagon::before {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
@@ -809,35 +706,32 @@ hr {
     padding: 2px 0 0;
     width: 100%;
 }
-
-
-/* Blockquote */
-.mod-blockquote, 
-blockquote {
-	padding-bottom: 0;
-	
-}
-.mod-blockquote p,
-blockquote p {
-	padding-left: 15px;
-}
-
-/* Vertical Alignment */
 .vertical-align-baseline,
 .vertical-align-center {
     display: inline;
     align-items: center;
 }
+blockquote,
+.mod-blockquote {
+	padding-bottom: 0;
+}
+blockquote p,
+.mod-blockquote p {
+	padding-left: 15px;
+}
 
 /* xs */
-.mod-blockquote,
-blockquote {
+blockquote,
+.mod-blockquote {
 	margin-top: 35px;
 }
 
 /* md */
 @media (min-width: 992px) {
-	/* Vertical Alignment */
+	blockquote,
+	.mod-blockquote {
+		margin-top: 0;
+	}
 	.vertical-align-baseline {
 	    display: flex;
 	    align-items: baseline;
@@ -846,12 +740,7 @@ blockquote {
 		display: flex;
 	    align-items: center;
 	}
-	.mod-blockquote,
-	blockquote {
-		margin-top: 0;
-	}
 }
-
 
 /*-----------------------------------------------
 ## Alpha
@@ -988,6 +877,14 @@ blockquote {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## BoldGrid Editor
+-----------------------------------------------*/
+#media-upload::before,
+#media-upload::after {
+    display: none;
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce .product {
@@ -998,22 +895,6 @@ blockquote {
 }
 .woocommerce p.buttons a.button:hover {
     background-image: none;
-}
-
-/*-----------------------------------------------
-## WC Gallery
------------------------------------------------*/
-
-/*-----------------------------------------------
-## Ninja Forms
------------------------------------------------*/
-
-/*-----------------------------------------------
-## BoldGrid Editor
------------------------------------------------*/
-#media-upload:before,
-#media-upload:after {
-    display: none;
 }
 
 /*------------------------------------------------------------------------
@@ -1031,6 +912,9 @@ blockquote {
 .footer-center-items li a {
 	padding: 5px;
 }
+.panel-footer {
+	padding: 20px 15px;
+}
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
@@ -1039,6 +923,16 @@ blockquote {
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
+}
+
+/* Sticky Footer */
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
 
 /* xs */
@@ -1051,19 +945,4 @@ blockquote {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/* Miscellaneous */
-.panel-footer {
-	padding: 20px 15px;
-}
-
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
 }
