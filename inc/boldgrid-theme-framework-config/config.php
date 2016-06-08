@@ -107,34 +107,28 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	}
 
 	// Override Options per Subcategory.
-	switch ( $subcategory_id ) {
-		// Design.
-		case 11 :
+	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
+		case 'Design':
 			$cta_h2 = 'DESIGN SOLUTIONS FOR ANY APPLICATION';
 			$cta_h3 = 'We design, develop, and communicate custom work that suits you.';
 			break;
-		// Photography.
-		case 12 :
+		case 'Photography':
 			$cta_h2 = 'LET US CAPTURE YOUR MEMORIES FOREVER';
 			$cta_h3 = 'Exceptional moments deserve exceptional images.';
 			break;
-		// Property Management.
-		case 18 :
+		case 'Property Management':
 			$cta_h2 = 'WE SET THE STANDARD IN PROPERTY MANAGEMENT';
 			$cta_h3 = 'Personalized Service. Proven Results.';
 			break;
-		// Marketing.
-		case 22 :
+		case 'Marketing':
 			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
 			$cta_h3 = 'Where strategy and creativity meet.';
 			break;
-		// Music.
-		case 24 :
+		case 'Music':
 			$cta_h2 = 'MUSIC PICKS UP WHERE THE WORDS FALL SHORT';
 			$cta_h3 = 'A love letter to our fans.';
 			break;
-		// Restaurant.
-		case 26 :
+		case 'Restaurant':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
 			$cta_h2 = 'IT\'S TIME FOR A GREAT MEAL';
 			$cta_h3 = 'Come in and see our specials. We want to be your go-to restaurant!';
