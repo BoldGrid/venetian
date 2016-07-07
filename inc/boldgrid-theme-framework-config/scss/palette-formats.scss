@@ -101,10 +101,10 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## 2
 	-----------------------------------------------*/
-	button, 
-	input, 
-	optgroup, 
-	select, 
+	button,
+	input,
+	optgroup,
+	select,
 	textarea,
 	.link-secondary,
 	.link-secondary:hover,
@@ -276,7 +276,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
-	&.mce-content-body { 
+	&.mce-content-body {
 		background: $palette-primary_4 !important;
 		color: $text-contrast-palette-primary_4;
 	}
@@ -284,7 +284,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 			background: $palette-primary_4;
 			color: $text-contrast-palette-primary_4;
 		}
-	
+
 	h1,
 	h2 {
 		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
@@ -295,9 +295,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		-moz-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
 		-webkit-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
 	}
-	.woocommerce #respond input#submit, 
+	.woocommerce #respond input#submit,
 	.woocommerce a.button,
-	.woocommerce button.button, 
+	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
 	    background-color: #a46497;
@@ -316,4 +316,3 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	body:after {
 		border-top: 700px solid rgba(255, 255, 255, 0.35);
 	}
-
