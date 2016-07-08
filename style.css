@@ -452,7 +452,6 @@ hr {
 	background-color: none;
 	border: none;
 	min-height: 0;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -471,9 +470,7 @@ hr {
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-	background: none;
-}
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
@@ -498,11 +495,7 @@ hr {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-	background: none;
-}
-
-/* Dropdown Parent */
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus,
@@ -591,10 +584,6 @@ hr {
 .gridblock p {
 	margin: 10px 0;
 }
-
-/*-----------------------------------------------
-## Alternates
------------------------------------------------*/
 
 /*------------------------------------------------------------------------
 # Modules
@@ -769,9 +758,6 @@ blockquote {
 	padding-top: 40px;
 	position: relative;
 }
-.mod-alpha {
-
-}
 
 /* xs */
 .mod-alpha-2 {
@@ -794,9 +780,7 @@ blockquote {
 	position: relative;
 	z-index: 1;
 }
-.mod-beta {
 
-}
 .background-beta:before {
 	content: "";
 	display: block;
@@ -896,6 +880,14 @@ blockquote {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## BoldGrid Editor
+-----------------------------------------------*/
+#media-upload::before,
+#media-upload::after {
+	display: none;
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce .product {
@@ -906,22 +898,6 @@ blockquote {
 }
 .woocommerce p.buttons a.button:hover {
 	background-image: none;
-}
-
-/*-----------------------------------------------
-## WC Gallery
------------------------------------------------*/
-
-/*-----------------------------------------------
-## Ninja Forms
------------------------------------------------*/
-
-/*-----------------------------------------------
-## BoldGrid Editor
------------------------------------------------*/
-#media-upload:before,
-#media-upload:after {
-	display: none;
 }
 
 /*------------------------------------------------------------------------
@@ -939,6 +915,9 @@ blockquote {
 .footer-center-items li a {
 	padding: 5px;
 }
+.panel-footer {
+	padding: 20px 15px;
+}
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
@@ -947,6 +926,16 @@ blockquote {
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
+}
+
+/* Sticky Footer */
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
 
 /* xs */
@@ -959,19 +948,4 @@ blockquote {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/* Miscellaneous */
-.panel-footer {
-	padding: 20px 15px;
-}
-
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }
