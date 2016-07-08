@@ -311,6 +311,10 @@ input[type="submit"],
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -331,7 +335,6 @@ input[type="submit"],
 	margin: 10px 0;
 	padding: 10px 25px;
 	transition: all 0.5s ease 0s;
-	/* Border Radius */
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -432,8 +435,8 @@ hr {
 @media (min-width: 992px) {
 	/* Call to Action */
 	.call-to-action {
-		margin-top: 100px;
-		margin-bottom: 150px;
+		margin-top: 200px;
+		margin-bottom: 200px;
 	}
 }
 
