@@ -28,8 +28,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Other Menus
 	## Social Menus
-# GridBlocks
-	## Positioning
 # Modules
 	## Global
 	## Alpha
@@ -155,7 +153,7 @@ p {
 	margin-bottom: 15px;
 }
 .widget-title {
-    text-shadow: none;
+	text-shadow: none;
 }
 .mod-divider,
 .gridblock .p-button-primary {
@@ -204,7 +202,7 @@ input[type="submit"],
 #menu-social .current-menu-item a,
 .woocommerce p.buttons a.button:hover,
 .woocommerce p.buttons a.button:focus {
-    text-decoration: none;
+	text-decoration: none;
 }
 .site-footer a {
 	text-decoration: underline;
@@ -234,7 +232,7 @@ input[type="submit"],
 
 /* Icon Sizes */
 .mod-icon-circle i {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 /* xs */
@@ -255,7 +253,7 @@ input[type="submit"],
 	.button-primary,
 	.button-secondary,
 	.call-to-action .p-button-primary {
-    	white-space: nowrap;
+		white-space: nowrap;
 	}
 	.site-title,
 	.site-description,
@@ -264,7 +262,7 @@ input[type="submit"],
 		text-align: left;
 	}
 	.menu-social {
-	    text-align: right;
+		text-align: right;
 	}
 }
 
@@ -562,26 +560,6 @@ hr {
 		padding-right: 15px;
 	}
 
-}
-
-/*------------------------------------------------------------------------
-# GridBlocks
-------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock ol,
-.gridblock ul,
-.gridblock li,
-.gridblock p {
-	margin: 10px 0;
 }
 
 /*------------------------------------------------------------------------
