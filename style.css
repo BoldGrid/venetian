@@ -505,9 +505,6 @@ hr {
 	position: relative;
 	z-index: 1;
 }
-.boldgrid-framework-menu li::after {
-	content: none;
-}
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
 	content: "";
 }
