@@ -456,13 +456,6 @@ hr {
 .navbar-nav > li > a {
 	padding: 12px 10px;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	background: none;
-}
 .navbar-default .navbar-nav > li:first-child > a {
 	margin-left: 0;
 }
