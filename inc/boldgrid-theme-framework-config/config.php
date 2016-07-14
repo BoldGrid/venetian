@@ -46,6 +46,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Remove the container classes that are targetted with navbar-collapse.
 	$boldgrid_framework_configs['menu']['prototype']['primary']['container_class'] = 'primary-menu';
 
+	// Give page_home.php a fluid container.
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = '';
+
+	// Give default template a fluid container.
+	$boldgrid_framework_configs['template']['pages']['default']['container_class'] = 'container';
+
 	// Enable BoldGrid Color Palette System.
 	$boldgrid_framework_configs['customizer-options']['colors']['enabled'] = true;
 
