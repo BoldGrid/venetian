@@ -260,7 +260,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $text-contrast-palette-primary_4;
 	}
 	.entry-title,
-	.entry-title span {
+	.entry-title a {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
