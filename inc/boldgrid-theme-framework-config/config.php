@@ -105,13 +105,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		),
 	);
 
-	// Get Subcategory ID from the Database.
-	$boldgrid_install_options = get_option( 'boldgrid_install_options', array() );
-	$subcategory_id = null;
-	if ( ! empty( $boldgrid_install_options['subcategory_id'] ) ) {
-		$subcategory_id = $boldgrid_install_options['subcategory_id'];
-	}
-
 	// Override Options per Subcategory.
 	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
 		case 'Design':
