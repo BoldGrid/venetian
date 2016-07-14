@@ -63,6 +63,7 @@ body {
 .post-title-hidden .site-content {
 	padding-top: 50px;
 }
+.hentry,
 .blog .site-content,
 .single .site-content,
 .archive .site-content {
