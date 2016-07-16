@@ -510,35 +510,11 @@ hr {
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
-.menu-social {
-	padding: 0;
-}
-.menu-social ul {
-	padding-left: 0;
-}
-.menu-social li {
-	display: inline;
-	list-style: none;
-	padding-right: 0;
-}
-#menu-social ul {
-	padding-left: 0px;
-}
-#menu-social ul li {
-	position: relative;
-	display:  inline-block;
-}
-#menu-social li a {
-	display: inline-block;
-}
-
-/* sm */
 @media (min-width: 768px) {
 	.menu-social {
 		margin-top: 15px;
 		padding-right: 15px;
 	}
-
 }
 
 /*------------------------------------------------------------------------
