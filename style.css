@@ -815,11 +815,11 @@ blockquote {
 .site-info {
 	margin-bottom: -10px;
 }
-.footer-center-items {
-	padding-left: 0;
+.footer-center-menu {
+	padding: 1em 0;
 }
-.footer-center-items li a {
-	padding: 5px;
+.footer-center-items li {
+	padding: 0 0.8em;
 }
 .panel-footer {
 	padding: 20px 15px;
