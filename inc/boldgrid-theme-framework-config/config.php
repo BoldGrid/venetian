@@ -40,6 +40,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Set the Call To Action Widget to be on Home Page Only.
 	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
 
+	// Add container to call to action widget.
+	$boldgrid_framework_configs['template']['pages']['global']['call-to-action'] = 'container';
+
 	// Remove Container ID that is targetted by navbar-toggle.
 	$boldgrid_framework_configs['menu']['prototype']['primary']['container_id'] = 'primary-menu';
 
