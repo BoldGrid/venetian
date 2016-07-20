@@ -174,6 +174,13 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'amount' => 5.9,
 	);
 
+	// Add a Typography Selector for buttons
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.button-primary, .button-secondary, input[type="submit"], button, #commentsubmit'] = array(
+		'type' => 'headings',
+		'round' => 'ceil',
+		'amount' => 1.4,
+	);
+
 	// Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon-circle';
