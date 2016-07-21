@@ -32,7 +32,14 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
 
 	// Select the footer template to use.
-	$boldgrid_framework_configs['template']['footer'] = '1';
+	$boldgrid_framework_configs['template']['footer'] = 'generic';
+
+	// Assign Locations for Generic Footer.
+	$boldgrid_framework_configs['template']['locations']['footer'] = array(
+			'1' => array( '[widget]boldgrid-widget-3' ),
+			'5' => array( '[menu]footer_center' ),
+			'8' => array( '[action]boldgrid_display_attribution_links' ),
+	);
 
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = '3';
