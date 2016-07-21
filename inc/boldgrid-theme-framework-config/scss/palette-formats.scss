@@ -5,6 +5,13 @@ $rgba_3 : rgba($palette-primary_3, 0.30);
 $rgba_4 : rgba($palette-primary_4, 0.50);
 
 /*------------------------------------------------------------------------
+# Defaults
+------------------------------------------------------------------------*/
+.table-striped tr:nth-of-type(odd) {
+	color: #333;
+}
+
+/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
@@ -232,6 +239,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: rgba(255,255,255,.50);
 		color: $palette-primary_4;
 	}
+	.sidebar .widget_calendar caption,
+	.sidebar .widget_calendar th,
 	.fa-inverse {
 		color: $text-contrast-palette-primary_4;
 	}
