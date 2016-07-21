@@ -59,12 +59,12 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-	    background: $palette-primary_1;
+		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
 	.navbar-default .navbar-toggle .icon-bar,
 	hr {
-	    background-color: $palette-primary_1;
+		background-color: $palette-primary_1;
 	}
 	.mod-blockquote,
 	blockquote {
@@ -117,11 +117,11 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $palette-primary_2;
 	}
 	.widget-area {
-	    border: 1px solid $palette-primary_2;
+		border: 1px solid $palette-primary_2;
 	}
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar {
-	    background-color: $text-contrast-palette-primary_2;
+		background-color: $text-contrast-palette-primary_2;
 	}
 	.dropdown-menu,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -181,17 +181,17 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		border: 1px solid $palette-primary_3;
 	}
 	.mod-icon-hexagon::before {
-	    border-bottom: 25px solid $palette-primary_3;
-	    border-left: 50px solid transparent;
-	    border-right: 50px solid transparent;
+		border-bottom: 25px solid $palette-primary_3;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
 	}
 	.mod-icon-hexagon::after {
-	    border-left: 50px solid transparent;
-	    border-right: 50px solid transparent;
-	    border-top: 25px solid $palette-primary_3;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 25px solid $palette-primary_3;
 	}
 	.mod-icon-hexagon {
-	    background: $palette-primary_3;
+		background: $palette-primary_3;
 	}
 	.form-control,
 	.media-heading,
@@ -246,7 +246,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $palette-primary_4;
 	}
 	.navbar-default .navbar-toggle {
-	    border-color: $palette-primary_4;
+		border-color: $palette-primary_4;
 	}
 	.background-alpha,
 	.background-beta,
@@ -269,7 +269,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	@media (min-width: 768px) {
 		/* Dropdown Child Default */
 		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	    	color: $text-contrast-palette-primary_4;
+			color: $text-contrast-palette-primary_4;
 		}
 	}
 
@@ -281,9 +281,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $text-contrast-palette-primary_4;
 	}
 	&.blog .site-content {
-			background: $palette-primary_4;
-			color: $text-contrast-palette-primary_4;
-		}
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
 
 	h1,
 	h2 {
@@ -300,19 +300,19 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
+		background-color: #a46497;
+		color: #fff;
 	}
 	.woocommerce p.buttons a.button:hover {
 		background-color: #dad8da;
-	    color: #515151;
+		color: #515151;
 	}
 	.background-beta:before,
 	.background-beta:after  {
-	    border-top: 700px solid rgba(255, 255, 255, 0.35);
-	}
-}
-	body:before,
-	body:after {
 		border-top: 700px solid rgba(255, 255, 255, 0.35);
 	}
+}
+body:before,
+body:after {
+	border-top: 700px solid rgba(255, 255, 255, 0.35);
+}
