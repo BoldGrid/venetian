@@ -94,11 +94,11 @@ body.mce-content-body:after {
 
 /* xs */
 body:before {
-	border-right: 280px solid transparent;
+	border-right: 475px solid transparent;
 	width: 38%;
 }
 body:after {
-	border-left: 280px solid transparent;
+	border-left: 475px solid transparent;
 	width: 38%;
 }
 
