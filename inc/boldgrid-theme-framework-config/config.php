@@ -115,16 +115,19 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Override Options per Subcategory.
 	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
 		case 'Design':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
 			$cta_h2 = 'DESIGN SOLUTIONS FOR ANY APPLICATION';
 			$cta_h3 = 'We design, develop, and communicate custom work that suits you.';
 			break;
-		case 'Photography':
-			$cta_h2 = 'LET US CAPTURE YOUR MEMORIES FOREVER';
-			$cta_h3 = 'Exceptional moments deserve exceptional images.';
+		case 'Fitness':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
+			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
+			$cta_h3 = 'Where strategy and creativity meet.';
 			break;
-		case 'Property Management':
-			$cta_h2 = 'WE SET THE STANDARD IN PROPERTY MANAGEMENT';
-			$cta_h3 = 'Personalized Service. Proven Results.';
+		case 'General':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
+			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
+			$cta_h3 = 'Where strategy and creativity meet.';
 			break;
 		case 'Marketing':
 			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
@@ -133,6 +136,14 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		case 'Music':
 			$cta_h2 = 'MUSIC PICKS UP WHERE THE WORDS FALL SHORT';
 			$cta_h3 = 'A love letter to our fans.';
+			break;
+		case 'Photography':
+			$cta_h2 = 'LET US CAPTURE YOUR MEMORIES FOREVER';
+			$cta_h3 = 'Exceptional moments deserve exceptional images.';
+			break;
+		case 'Property Management':
+			$cta_h2 = 'WE SET THE STANDARD IN PROPERTY MANAGEMENT';
+			$cta_h3 = 'Personalized Service. Proven Results.';
 			break;
 		case 'Restaurant':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
