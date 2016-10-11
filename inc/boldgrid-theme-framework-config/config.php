@@ -114,24 +114,32 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Override Options per Subcategory.
 	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
+		case 'Consulting':
+			$cta_h2 = 'MAKE BETTER BUSINESS DECISIONS TODAY';
+			$cta_h3 = 'Contact us and schedule your consultation now.';
+			break;
 		case 'Design':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
 			$cta_h2 = 'DESIGN SOLUTIONS FOR ANY APPLICATION';
 			$cta_h3 = 'We design, develop, and communicate custom work that suits you.';
 			break;
+		case 'Fashion':
+			$cta_h2 = 'ENDLESS VARIETY FOR THE FASHION ECLECTIC';
+			$cta_h3 = 'Our locations stock trends for everyone.';
+			break;
 		case 'Fitness':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
-			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
-			$cta_h3 = 'Where strategy and creativity meet.';
+			$cta_h2 = 'A UNIQUE ANGLE ON PHYSICAL FITNESS';
+			$cta_h3 = 'Join one of our fitness clubs today.';
 			break;
 		case 'General':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
-			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
-			$cta_h3 = 'Where strategy and creativity meet.';
+			$cta_h2 = 'PROFESSIONAL CONTENT WRITING FOR ALL';
+			$cta_h3 = 'No project is too small for our talented writers.';
 			break;
-		case 'Marketing':
-			$cta_h2 = 'GREAT IDEAS DESERVE GREAT CAMPAIGNS';
-			$cta_h3 = 'Where strategy and creativity meet.';
+		case 'Home Repair':
+			$cta_h2 = 'WE NEVER MET A SINK THAT COULDN\'T BE FIXED';
+			$cta_h3 = 'Call us today and receive a free estimate on your next repair.';
 			break;
 		case 'Music':
 			$cta_h2 = 'MUSIC PICKS UP WHERE THE WORDS FALL SHORT';
@@ -145,10 +153,14 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			$cta_h2 = 'WE SET THE STANDARD IN PROPERTY MANAGEMENT';
 			$cta_h3 = 'Personalized Service. Proven Results.';
 			break;
+		case 'Real Estate':
+			$cta_h2 = 'CHOOSE A PLACE TO LIVE. WE\'LL DO THE REST';
+			$cta_h3 = 'Let us sort through the mess of securing your dream home.';
+			break;
 		case 'Restaurant':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
-			$cta_h2 = 'IT\'S TIME FOR A GREAT MEAL';
-			$cta_h3 = 'Come in and see our specials. We want to be your go-to restaurant!';
+			$cta_h2 = 'WE\'RE PASSIONATE ABOUT FILLING YOUR STOMACH';
+			$cta_h3 = 'Breakfast, lunch, or dinner. Dine in any time.';
 			break;
 
 		// Default Behavior.
