@@ -385,6 +385,14 @@ hr {
 	border: 0;
 	height: 1px;
 }
+.site-footer .widget.well {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+.site-footer .table > tbody > tr:nth-of-type(2n+1) {
+	background: transparent;
+}
 
 /*------------------------------------------------------------------------
 # Header

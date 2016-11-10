@@ -7,9 +7,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 /*------------------------------------------------------------------------
 # Defaults
 ------------------------------------------------------------------------*/
-.table-striped tr:nth-of-type(odd) {
-	color: #333;
-}
+
 
 /*------------------------------------------------------------------------
 # Palettes
@@ -41,7 +39,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	#commentsubmit,
 	.button-secondary,
 	input[type="submit"],
-	.comment-reply-link {
+	.comment-reply-link,
+	.site-header .widget.well .button-primary {
 		background: $palette-primary_1 !important;
 		border: 2px solid $palette-primary_1 !important;
 		color: $text-contrast-palette-primary_1 !important;
@@ -64,7 +63,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+	.nav > li > a:focus,
+	.nav > li > a:hover {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -234,13 +235,17 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-	.site-header {
+	.site-header,
+	.site-header .widget.well {
 		background: rgba(255,255,255,.50);
 		color: $palette-primary_4;
 	}
 	.sidebar .widget_calendar caption,
 	.sidebar .widget_calendar th,
-	.fa-inverse {
+	.fa-inverse,
+	.site-footer .widget.well,
+	.site-footer .widget.well a,
+	.site-footer .widget.well caption {
 		color: $text-contrast-palette-primary_4;
 	}
 	.site-title a,
