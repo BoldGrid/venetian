@@ -96,7 +96,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	}
 	.button-primary:hover,
 	.button-primary:focus,
-	.button-primary:active {
+	.button-primary:active,
+	.pager li > a:hover,
+	.pager li > a:focus {
 		background: $palette-primary_1;
 		border: 2px solid $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
@@ -151,7 +153,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $palette-primary_3;
 		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
 	}
-	.button-primary {
+	.button-primary,
+	.pager li > a {
 		background: none;
 		border: 2px solid $palette-primary_3;
 		color: $palette-primary_3;

@@ -199,7 +199,8 @@ input[type="submit"],
 #footer-center-menu .current-menu-item a,
 #menu-social .current-menu-item a,
 .woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus {
+.woocommerce p.buttons a.button:focus,
+.pager li > a {
 	text-decoration: none;
 }
 .site-footer a {
