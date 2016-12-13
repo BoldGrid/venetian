@@ -69,6 +69,9 @@ body {
 .archive .site-content {
 	margin: 0;
 }
+.hentry:first-child ~ .hentry {
+	margin-top: 50px;
+}
 body:before {
 	content: "";
 	display: block;
@@ -745,6 +748,9 @@ blockquote {
 	margin-top: 25px;
 	padding: 25px;
 	list-style:none;
+}
+.nav-links {
+	margin: 25px 0;
 }
 
 /* Comments */
