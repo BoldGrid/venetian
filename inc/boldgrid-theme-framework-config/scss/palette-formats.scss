@@ -204,13 +204,11 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_3;
 	}
 	.form-control,
-	.media-heading,
 	.showcoupon,
 	.showcoupon:hover,
 	.showcoupon:focus,
 	#payment label,
 	#payment .payment_box p,
-	.comments-area .comment-content p,
 	.woocommerce-message a,
 	.woocommerce-message a:hover,
 	.woocommerce-message a:focus,
@@ -234,7 +232,10 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_4;
 	}
 	body,
-	.site-content {
+	.site-content,
+	.panel-default > .panel-heading,
+	.panel-body,
+	.panel-footer {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
@@ -261,7 +262,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.navbar-default .navbar-nav > li > a {
 		color: $palette-primary_4;
 	}
-	.navbar-default .navbar-toggle {
+	.navbar-default .navbar-toggle,
+	.panel-default {
 		border-color: $palette-primary_4;
 	}
 	.background-alpha,
