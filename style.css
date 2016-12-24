@@ -325,8 +325,6 @@ input[type="submit"],
 	margin: 10px 0;
 	padding: 10px 25px;
 	transition: all 0.5s ease 0s;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
 .button-secondary:hover,
@@ -450,8 +448,6 @@ hr {
 	background-color: none;
 	border: none;
 	min-height: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 }
 .navbar-default {
