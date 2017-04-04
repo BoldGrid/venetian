@@ -65,7 +65,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
 	.nav > li > a:focus,
-	.nav > li > a:hover {
+	.nav > li > a:hover,
+	.mark,
+	mark {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
