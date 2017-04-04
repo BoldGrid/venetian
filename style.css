@@ -51,8 +51,8 @@ body {
 	position: relative;
 }
 .page-template-page_home.home .site-content {
-	padding-bottom: 0;
 	background: none;
+	padding-bottom: 0;
 }
 
 /* Inside Pages */
@@ -73,22 +73,23 @@ body {
 	margin-top: 50px;
 }
 body:before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
+	content: "";
 	display: block;
 	height: 100%;
-	content: "";
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+
 }
 body:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: -10;
+	content: "";
 	display: block;
 	height: 100%;
-	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -10;
 }
 body.mce-content-body:before,
 body.mce-content-body:after {
@@ -97,35 +98,35 @@ body.mce-content-body:after {
 
 /* xs */
 body:before {
-	width: 38%;
 	border-right: 280px solid transparent;
+	width: 38%;
 }
 body:after {
-	width: 38%;
 	border-left: 280px solid transparent;
+	width: 38%;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	body:before {
-		width: 65%;
 		border-right: 600px solid transparent;
+		width: 65%;
 	}
 	body:after {
-		width: 65%;
 		border-left: 600px solid transparent;
+		width: 65%;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
 	body:before {
-		width: 59%;
 		border-right: 980px solid transparent;
+		width: 59%;
 	}
 	body:after {
-		width: 59%;
 		border-left: 980px solid transparent;
+		width: 59%;
 	}
 }
 
@@ -199,14 +200,10 @@ input[type="submit"],
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
 .payment_method_paypal label a:focus,
-.woocommerce-message a:hover,
-.woocommerce-message a:focus,
 #secondary-menu .current-menu-item a,
 #tertiary-menu .current-menu-item a,
 #footer-center-menu .current-menu-item a,
 #menu-social .current-menu-item a,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus,
 .pager li > a {
 	text-decoration: none;
 }
@@ -290,21 +287,21 @@ input[type="submit"],
 	display: none;
 }
 .entry-title {
-	position: relative;
-	z-index: 1;
 	display: block;
 	margin: 60px 0;
+	position: relative;	
+	z-index: 1;
 }
 .entry-title:before {
-	position: absolute;
-	top: 50%;
-	right: 0;
 	bottom: 0;
-	left: 0;
-	z-index: -1;
-	margin: 0 auto;
-	width: 100%;
 	content: "";
+	left: 0;	
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 100%;
+	z-index: -1;
 }
 .entry-title a {
 	padding: 0 1em;
@@ -315,9 +312,9 @@ input[type="submit"],
 -----------------------------------------------*/
 /* Button Primary */
 .button-primary {
+	background: none;
 	margin: 10px 0;
 	padding: 10px 25px;
-	background: none;
 	transition: all .5s ease 0s;
 }
 
@@ -326,9 +323,9 @@ input[type="submit"],
 input[type="submit"],
 #commentsubmit,
 .comment-reply-link {
+	border-radius: 0;
 	margin: 10px 0;
 	padding: 10px 25px;
-	border-radius: 0;
 	transition: all .5s ease 0s;
 }
 .button-secondary:hover,
@@ -388,12 +385,12 @@ input[type="submit"]:focus,
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	height: 1px;
 	border: 0;
+	height: 1px;
 }
 .site-footer .widget.well {
-	border: none;
 	background: transparent;
+	border: none;
 	box-shadow: none;
 }
 .site-footer .table > tbody > tr:nth-of-type(2n+1) {
@@ -419,24 +416,23 @@ hr {
 
 /* xs */
 .call-to-action {
-	margin-top: 50px;
 	margin-bottom: 0;
+	margin-top: 50px;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	.call-to-action {
-		margin-top: 75px;
 		margin-bottom: 75px;
+		margin-top: 75px;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
-	/* Call to Action */
 	.call-to-action {
-		margin-top: 200px;
 		margin-bottom: 200px;
+		margin-top: 200px;
 	}
 }
 
@@ -449,14 +445,14 @@ hr {
 -----------------------------------------------*/
 /* Nav Reset */
 .navbar {
-	min-height: 0;
+	background-color: none;
 	border: none;
 	border-radius: 0;
-	background-color: none;
+	min-height: 0;
 }
 .navbar-default {
-	margin-bottom: 0;
 	background: none;
+	margin-bottom: 0;
 }
 .navbar-default .navbar-nav {
 	margin-left: -15px;
@@ -511,9 +507,9 @@ hr {
 }
 #secondary-menu,
 #tertiary-menu {
+	background: none;
 	position: relative;
 	z-index: 1;
-	background: none;
 }
 .footer-center-items li::after,
 .boldgrid-framework-menu li::after {
@@ -546,8 +542,8 @@ hr {
 	margin-top: -45px;
 }
 .mod-icon-circle i {
-	padding: 23px;
 	border-radius: 50%;
+	padding: 23px;
 }
 .mod-divider {
 	display: table;
@@ -556,11 +552,11 @@ hr {
 }
 .mod-divider::before,
 .mod-divider::after {
+	content: "";
+	display: table-cell;
 	position: relative;
 	top: 2.5em;
-	display: table-cell;
 	width: 50%;
-	content: "";
 }
 .mod-divider::before {
 	right: 3%;
@@ -571,41 +567,41 @@ hr {
 
 /* Hexagon Shape with Icon */
 .mod-icon-hexagon::before {
+	content: "";
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	left: 0;
 	position: absolute;
 	top: -25px;
-	left: 0;
 	width: 0;
-	height: 0;
-	border-right: 50px solid transparent;
-	border-left: 50px solid transparent;
-	content: "";
 }
 .mod-icon-hexagon::after {
-	position: absolute;
-	bottom: -25px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-right: 50px solid transparent;
-	border-left: 50px solid transparent;
 	content: "";
+	bottom: -25px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	left: 0;
+	position: absolute;
+	width: 0;
 }
 .mod-icon-hexagon {
-	position: relative;
 	display: inline-block;
-	margin: 40px;
-	width: 100px;
 	height: 55px;
+	margin: 40px;
+	position: relative;
+	width: 100px;
 }
 .mod-icon-hexagon i {
 	padding: 2px 0 0;
 	width: 100%;
 }
 
-
 /* Blockquote */
 .mod-blockquote,
 blockquote {
+	margin-top: 35px;
 	padding-bottom: 0;
 }
 .mod-blockquote p,
@@ -616,29 +612,19 @@ blockquote p {
 /* Vertical Alignment */
 .vertical-align-baseline,
 .vertical-align-center {
-	display: inline;
-
 	align-items: center;
-}
-
-/* xs */
-.mod-blockquote,
-blockquote {
-	margin-top: 35px;
+	display: inline;
 }
 
 /* md */
 @media (min-width: 992px) {
-	/* Vertical Alignment */
 	.vertical-align-baseline {
-		display: flex;
-
 		align-items: baseline;
+		display: flex;
 	}
 	.vertical-align-center {
-		display: flex;
-
 		align-items: center;
+		display: flex;
 	}
 	.mod-blockquote,
 	blockquote {
@@ -646,14 +632,13 @@ blockquote {
 	}
 }
 
-
 /*-----------------------------------------------
 ## Alpha
 -----------------------------------------------*/
 .background-alpha {
-	position: relative;
-	padding-top: 40px;
 	min-height: 650px;
+	padding-top: 40px;
+	position: relative;
 }
 
 /* xs */
@@ -672,62 +657,61 @@ blockquote {
 ## Beta
 -----------------------------------------------*/
 .background-beta {
+	min-height: 710px;
+	padding-top: 40px;
 	position: relative;
 	z-index: 1;
-	padding-top: 40px;
-	min-height: 710px;
 }
-
 .background-beta:before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
+	content: "";
 	display: block;
 	height: 100%;
-	content: "";
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
 }
 .background-beta:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: -10;
+	content: "";
 	display: block;
 	height: 100%;
-	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -10;
 }
 
 /* xs */
 .background-beta:before {
-	width: 38%;
 	border-right: 280px solid transparent;
+	width: 38%;
 }
 .background-beta:after {
-	width: 38%;
 	border-left: 280px solid transparent;
+	width: 38%;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	.background-beta:before {
-		width: 65%;
 		border-right: 600px solid transparent;
+		width: 65%;
 	}
 	.background-beta:after {
-		width: 65%;
 		border-left: 600px solid transparent;
+		width: 65%;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
 	.background-beta:before {
-		width: 59%;
 		border-right: 980px solid transparent;
+		width: 59%;
 	}
 	.background-beta:after {
-		width: 59%;
 		border-left: 980px solid transparent;
+		width: 59%;
 	}
 }
 
@@ -735,9 +719,9 @@ blockquote {
 ## Gamma
 -----------------------------------------------*/
 .background-gamma {
-	position: relative;
-	padding-top: 40px;
 	min-height: 650px;
+	padding-top: 40px;
+	position: relative;	
 }
 
 /*------------------------------------------------------------------------
@@ -748,9 +732,9 @@ blockquote {
 # Posts
 ------------------------------------------------------------------------*/
 .widget-area {
+	list-style: none;
 	margin-top: 25px;
 	padding: 25px;
-	list-style: none;
 }
 .nav-links {
 	margin: 25px 0;
@@ -799,14 +783,8 @@ blockquote {
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce .product {
-	margin: 2em 0 0;
-}
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
 }
 
 /*------------------------------------------------------------------------
@@ -830,8 +808,8 @@ blockquote {
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	padding: 15px 0;
 	height: auto;
+	padding: 15px 0;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;

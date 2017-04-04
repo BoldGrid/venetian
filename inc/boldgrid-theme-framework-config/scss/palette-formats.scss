@@ -145,8 +145,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	caption,
 	.widget-area caption,
 	#secondary .widget-title,
-	#secondary .table > tbody > tr td,
-	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+	#secondary .table > tbody > tr td {
 		color: $text-contrast-palette-primary_3;
 	}
 	.call-to-action h3 {
@@ -182,14 +181,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.wc-gallery img {
 		border: 6px solid $palette-primary_3;
 	}
-	.woocommerce table.shop_table,
-	.shop_table td,
-	.shop_table thead tr th,
-	.shop_table tbody th,
-	.shop_table tfoot td,
-	.shop_table tfoot th  {
-		border: 1px solid $palette-primary_3;
-	}
 	.mod-icon-hexagon::before {
 		border-bottom: 25px solid $palette-primary_3;
 		border-left: 50px solid transparent;
@@ -204,20 +195,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_3;
 	}
 	.form-control,
-	.showcoupon,
-	.showcoupon:hover,
-	.showcoupon:focus,
-	#payment label,
-	#payment .payment_box p,
-	.woocommerce-message a,
-	.woocommerce-message a:hover,
-	.woocommerce-message a:focus,
 	.black-studio-tinymce-widget p,
-	.payment_method_paypal label a,
-	.payment_method_paypal label a:hover,
-	.payment_method_paypal label a:focus,
-	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
-	.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	#secondary .table-striped > tbody > tr:nth-child(2n+1) td {
 		color: $text-contrast-palette-primary_3;
 	}
 
@@ -313,23 +292,15 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		-moz-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
 		-webkit-box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
 	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
-	}
 	.background-beta:before,
 	.background-beta:after  {
 		border-top: 700px solid rgba(255, 255, 255, 0.35);
 	}
 }
+
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
 body:before,
 body:after {
 	border-top: 700px solid rgba(255, 255, 255, 0.35);
