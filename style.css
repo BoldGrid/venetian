@@ -793,6 +793,9 @@ blockquote p {
 .woocommerce-account p.order-again .btn.button-primary {
 	padding: 12px 24px;
 }
+.woocommerce .btn:disabled {
+	text-shadow: none !important;
+}
 
 /*------------------------------------------------------------------------
 # Footer
