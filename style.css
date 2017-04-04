@@ -747,11 +747,13 @@ blockquote p {
 }
 .panel-default > .panel-heading {
 	border: none;
+	border-radius: 0;
 }
 .panel-footer {
 	border-top: 1px solid transparent;
 }
 .panel {
+	background: transparent;
 	box-shadow: none;
 }
 
