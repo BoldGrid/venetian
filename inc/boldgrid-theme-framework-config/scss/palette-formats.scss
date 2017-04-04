@@ -228,7 +228,8 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.fa-inverse,
 	.site-footer .widget.well,
 	.site-footer .widget.well a,
-	.site-footer .widget.well caption {
+	.site-footer .widget.well caption,
+	#reviews #comments ol.commentlist li .meta {
 		color: $text-contrast-palette-primary_4;
 	}
 	.site-title a,
