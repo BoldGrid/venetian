@@ -789,6 +789,10 @@ blockquote p {
 .woocommerce #reviews #comments ol.commentlist li .comment-text {
 	border: none;
 }
+.woocommerce-account td.download-actions .btn.button-primary,
+.woocommerce-account p.order-again .btn.button-primary {
+	padding: 12px 24px;
+}
 
 /*------------------------------------------------------------------------
 # Footer
