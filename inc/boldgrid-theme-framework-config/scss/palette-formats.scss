@@ -220,9 +220,12 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-	.site-header,
+	.site-header {
+		background: rgba(255,255,255,.75);
+		color: $palette-primary_4;
+	}
 	.site-header .widget.well {
-		background: rgba(255,255,255,.50);
+		background: rgba(255,255,255,.5);
 		color: $palette-primary_4;
 	}
 	.sidebar .widget_calendar caption,
