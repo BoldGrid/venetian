@@ -48,9 +48,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'8' => array( '[action]boldgrid_display_attribution_links' ),
 	);
 
-	// Select the header template to use.
-	$boldgrid_framework_configs['template']['header'] = 'generic';
-
 	// Set the Call To Action Widget to be on Home Page Only.
 	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
 
