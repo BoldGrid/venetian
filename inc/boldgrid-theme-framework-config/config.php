@@ -34,6 +34,13 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Select the footer template to use.
 	$boldgrid_framework_configs['template']['footer'] = 'generic';
 
+	// Assign Locations for Generic Header.
+	$boldgrid_framework_configs['template']['locations']['header'] = array(
+			'1' => array( '[menu]secondary', '[action]venetian_columns' ),
+			'5' => array( '[widget]boldgrid-widget-2' ),
+			'8' => array( '[menu]tertiary' ),
+	);
+
 	// Assign Locations for Generic Footer.
 	$boldgrid_framework_configs['template']['locations']['footer'] = array(
 			'1' => array( '[widget]boldgrid-widget-3' ),
@@ -271,3 +278,24 @@ function filter_logo_controls( $controls ) {
 	return $controls;
 }
 add_filter( 'kirki/fields', 'filter_logo_controls' );
+
+/**
+ * Creates additional column sizes in the header template.
+ */
+function venetian_columns() { ?>
+	<div class="row">
+		<div class="col-sm-4">
+			<?php do_action( 'boldgrid_site_identity' ); ?>
+		</div>
+		<div class="col-sm-8">
+			<div class="row">
+				<?php do_action( 'boldgrid_menu_social' ); ?>
+			</div>
+			<div class="row">
+				<?php do_action( 'boldgrid_primary_navigation' ); ?>
+			</div>
+		</div>
+	</div>
+<?php }
+
+add_action( 'venetian_columns', 'venetian_columns' );
