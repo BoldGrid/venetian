@@ -54,12 +54,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Add container to call to action widget.
 	$boldgrid_framework_configs['template']['pages']['global']['call-to-action'] = 'container';
 
-	// Remove Container ID that is targetted by navbar-toggle.
-	$boldgrid_framework_configs['menu']['prototype']['primary']['container_id'] = 'primary-menu';
-
-	// Remove the container classes that are targetted with navbar-collapse.
-	$boldgrid_framework_configs['menu']['prototype']['primary']['container_class'] = 'primary-menu';
-
 	// No container is needed on home page for this theme.
 	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = '';
 
