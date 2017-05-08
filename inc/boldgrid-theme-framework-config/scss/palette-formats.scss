@@ -100,7 +100,9 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.button-primary:focus,
 	.button-primary:active,
 	.pager li > a:hover,
-	.pager li > a:focus {
+	.pager li > a:focus,
+	.alert .btn.button-primary,
+	.woocommerce-Message .btn.button-primary {
 		background: $palette-primary_1;
 		border: 2px solid $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
