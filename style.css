@@ -396,6 +396,10 @@ hr {
 .site-footer .table > tbody > tr:nth-of-type(2n+1) {
 	background: transparent;
 }
+input,
+select {
+	color: #333;
+}
 
 /*------------------------------------------------------------------------
 # Header
