@@ -71,7 +71,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-	.navbar-default .navbar-toggle .icon-bar,
 	hr {
 		background-color: $palette-primary_1;
 	}
@@ -129,12 +128,10 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.widget-area {
 		border: 1px solid $palette-primary_2;
 	}
-	.navbar-default .navbar-toggle:hover .icon-bar,
-	.navbar-default .navbar-toggle:focus .icon-bar {
-		background-color: $text-contrast-palette-primary_2;
-	}
 	.dropdown-menu,
-	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
@@ -158,10 +155,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: none;
 		border: 2px solid $palette-primary_3;
 		color: $palette-primary_3;
-	}
-	.navbar-default .navbar-toggle:hover,
-	.navbar-default .navbar-toggle:focus {
-		background: $text-contrast-palette-primary_3;
 	}
 	.call-to-action h2 {
 		border-bottom: 1px solid $palette-primary_3;
@@ -208,7 +201,10 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.entry-footer,
 	.mod-icon-circle i,
 	.disabled-footer .site-footer,
-	#boldgrid-sticky-filler {
+	#boldgrid-sticky-filler,
+	.navbar-default .navbar-toggle .icon-bar,
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
 		background: $palette-primary_4;
 	}
 	body,
