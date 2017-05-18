@@ -194,6 +194,15 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		color: $text-contrast-palette-primary_3;
 	}
 
+	/* Gallery Captions */
+	.wc-gallery-captions-show .gallery-caption,
+	.wc-gallery-captions-onpopup .gallery-caption,
+	.wc-gallery-captions-showon .gallery-caption, 
+	.wc-gallery-captions-onhover .gallery-caption  {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+
 	/*-----------------------------------------------
 	## 4
 	-----------------------------------------------*/
