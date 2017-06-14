@@ -298,10 +298,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## WooCommerce
 	-----------------------------------------------*/
-	&.woocommerce div.product .stock.out-of-stock {
-		color: $palette-primary_1;
-	}
-	&.woocommerce div.product .stock {
+	&.woocommerce-cart button {
 		color: $text-contrast-palette-primary_4;
 	}
 }
