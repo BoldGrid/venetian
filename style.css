@@ -388,6 +388,10 @@ hr {
 	border: 0;
 	height: 1px;
 }
+.search .jumbotron {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	text-align: center;
+}
 .site-footer .widget.well {
 	background: transparent;
 	border: none;
