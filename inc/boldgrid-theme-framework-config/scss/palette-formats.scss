@@ -5,11 +5,6 @@ $rgba_3 : rgba($palette-primary_3, 0.30);
 $rgba_4 : rgba($palette-primary_4, 0.50);
 
 /*------------------------------------------------------------------------
-# Defaults
-------------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
@@ -22,9 +17,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	a:hover,
 	a:focus,
 	.widget-title,
-	.link-primary,
-	.link-primary:hover,
-	.link-primary:focus,
 	#secondary table th,
 	.gridblock .heading-alt,
 	#secondary .table-striped > tbody > tr #today a,
@@ -35,15 +27,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.post .entry-title,
 	.single .entry-title {
 		color: $palette-primary_1;
-	}
-	#commentsubmit,
-	.button-secondary,
-	input[type="submit"],
-	.comment-reply-link,
-	.site-header .widget.well .button-primary {
-		background: $palette-primary_1 !important;
-		border: 2px solid $palette-primary_1 !important;
-		color: $text-contrast-palette-primary_1 !important;
 	}
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
@@ -57,8 +40,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: none;
 		color:	$palette-primary_1;
 	}
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -78,34 +59,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	blockquote {
 		border-left: 10px solid $palette-primary_1;
 	}
-	.form-submit .submit {
-		background: $text-contrast-palette-primary_1;
-		color: $palette-primary_1;
-	}
-	.button-secondary:hover,
-	.button-secondary:focus,
-	.button-secondary:active,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus,
-	#commentsubmit:hover,
-	#commentsubmit:focus,
-	.comment-reply-link:hover,
-	.comment-reply-link:focus {
-		background: none !important;
-		border: 2px solid $palette-primary_1 !important;
-		color: $palette-primary_1 !important;
-	}
-	.button-primary:hover,
-	.button-primary:focus,
-	.button-primary:active,
-	.pager li > a:hover,
-	.pager li > a:focus,
-	.alert .btn.button-primary,
-	.woocommerce-Message .btn.button-primary {
-		background: $palette-primary_1;
-		border: 2px solid $palette-primary_1;
-		color: $text-contrast-palette-primary_1;
-	}
 	.entry-title:before {
 		border-top: 2px solid $palette-primary_1;
 	}
@@ -113,8 +66,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	/*-----------------------------------------------
 	## 2
 	-----------------------------------------------*/
-	button,
-	optgroup,
 	.link-secondary,
 	.link-secondary:hover,
 	.link-secondary:focus,
@@ -124,9 +75,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	#tertiary-menu a[href]:hover,
 	#footer-center-menu .menu-social a[href]:hover {
 		color: $palette-primary_2;
-	}
-	.widget-area {
-		border: 1px solid $palette-primary_2;
 	}
 	.dropdown-menu,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
@@ -143,18 +91,14 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	caption,
 	.widget-area caption,
 	#secondary .widget-title,
-	#secondary .table > tbody > tr td {
+	#secondary .table > tbody > tr td,
+	.black-studio-tinymce-widget p,
+	#secondary .table-striped > tbody > tr:nth-child(2n+1) td {
 		color: $text-contrast-palette-primary_3;
 	}
 	.call-to-action h3 {
 		color: $palette-primary_3;
 		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
-	}
-	.button-primary,
-	.pager li > a {
-		background: none;
-		border: 2px solid $palette-primary_3;
-		color: $palette-primary_3;
 	}
 	.call-to-action h2 {
 		border-bottom: 1px solid $palette-primary_3;
@@ -188,11 +132,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.mod-icon-hexagon {
 		background: $palette-primary_3;
 	}
-	.form-control,
-	.black-studio-tinymce-widget p,
-	#secondary .table-striped > tbody > tr:nth-child(2n+1) td {
-		color: $text-contrast-palette-primary_3;
-	}
 
 	/*-----------------------------------------------
 	## 4
@@ -211,10 +150,15 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.site-content,
 	.panel-default > .panel-heading,
 	.panel-body,
-	.panel-footer {
+	.panel-footer,
+	.background-alpha,
+	.background-beta,
+	.background-gamma,
+	.entry-title,
+	.entry-title a {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
-	}
+	}	
 	.site-header,
 	.site-header .widget.well {
 		background: rgba(255,255,255,.50);
@@ -232,7 +176,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.site-title a,
 	.site-description,
 	#menu-social a,
-	#menu-social li a,
 	#secondary-menu a,
 	#tertiary-menu a,
 	.mod-icon-hexagon i,
@@ -243,20 +186,13 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.panel-default {
 		border-color: $palette-primary_4;
 	}
-	.background-alpha,
-	.background-beta,
-	.background-gamma {
-		background: $palette-primary_4;
-		color: $text-contrast-palette-primary_4;
-	}
 	.site-footer {
 		background: $palette-primary_4;
 		border-top: 1px solid $text-contrast-palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-	.entry-title,
-	.entry-title a {
-		background: $palette-primary_4;
+	&.mce-content-body {
+		background: $palette-primary_4 !important;
 		color: $text-contrast-palette-primary_4;
 	}
 
@@ -269,17 +205,42 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	}
 
 	/*-----------------------------------------------
-	## Et Cetera
+	## Buttons
 	-----------------------------------------------*/
-	&.mce-content-body {
-		background: $palette-primary_4 !important;
-		color: $text-contrast-palette-primary_4;
+	.button-primary,
+	.pager li > a {
+		background: none;
+		border: 2px solid $palette-primary_3;
+		color: $palette-primary_3;
 	}
-	&.blog .site-content {
-		background: $palette-primary_4;
-		color: $text-contrast-palette-primary_4;
+	.button-secondary,
+	input[type="submit"],
+	.comment-reply-link,
+	.site-header .widget.well .button-primary,
+	.button-primary:hover,
+	.button-primary:focus,
+	.pager li > a:hover,
+	.pager li > a:focus,
+	.alert .btn.button-primary,
+	.woocommerce-Message .btn.button-primary {
+		background: $palette-primary_1;
+		border: 2px solid $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	.comment-reply-link:hover,
+	.comment-reply-link:focus {
+		background: none;
+		border: 2px solid $palette-primary_1;
+		color: $palette-primary_1;
 	}
 
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
 	h1,
 	h2 {
 		text-shadow: -2px 4px 5px rgba(85, 85, 85, 0.2);
@@ -293,13 +254,6 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 	.background-beta:before,
 	.background-beta:after  {
 		border-top: 700px solid rgba(255, 255, 255, 0.35);
-	}
-
-	/*-----------------------------------------------
-	## WooCommerce
-	-----------------------------------------------*/
-	&.woocommerce-cart button {
-		color: $text-contrast-palette-primary_4;
 	}
 }
 

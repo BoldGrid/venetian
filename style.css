@@ -167,39 +167,19 @@ p {
 .gridblock .p-button-primary {
 	white-space: nowrap;
 }
-a,
-.showcoupon,
-.woocommerce-message a,
-.payment_method_paypal label a {
+a {
 	text-decoration: underline;
 }
 a:hover,
 a:focus,
-.link-primary:hover,
-.link-primary:focus,
-.link-secondary:hover,
-.link-secondary:focus,
 .button-primary,
-.button-primary:hover,
-.button-primary:active,
-.button-secondary:hover,
-.button-secondary:active
-input[type="submit"]:hover,
-input[type="submit"]:focus,
 .button-secondary,
-input[type="submit"],
-#commentsubmit,
-.comment-reply-link,
 .navbar-default .navbar-nav > li > a,
 .dropdown-menu > li > a,
 .entry-title a,
 #secondary-menu a,
 #tertiary-menu a,
 #menu-social a,
-.showcoupon:hover,
-.showcoupon:focus,
-.payment_method_paypal label a:hover,
-.payment_method_paypal label a:focus,
 #secondary-menu .current-menu-item a,
 #tertiary-menu .current-menu-item a,
 #footer-center-menu .current-menu-item a,
@@ -224,8 +204,6 @@ input[type="submit"],
 #secondary-menu,
 #tertiary-menu,
 .site-footer,
-.site-info,
-.attribution,
 .menu-social {
 	text-align: center;
 }
@@ -311,41 +289,17 @@ input[type="submit"],
 ## Buttons
 -----------------------------------------------*/
 /* Button Primary */
-.button-primary {
-	background: none;
-	margin: 10px 0;
-	padding: 10px 25px;
-	transition: all .5s ease 0s;
-}
-
-/* Button Secondary */
-.button-secondary,
-input[type="submit"],
-#commentsubmit,
-.comment-reply-link {
+.button-primary,
+.button-secondary {
 	border-radius: 0;
 	margin: 10px 0;
 	padding: 10px 25px;
 	transition: all .5s ease 0s;
 }
-.button-secondary:hover,
-.button-secondary:focus,
-.button-secondary:active,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-#commentsubmit:hover,
-#commentsubmit:focus {
-	background: none;
-}
 
 /* Comments */
 .comment-reply-link {
-	margin: 10px 0;
 	padding: 5px 25px;
-}
-.comment-reply-link:hover,
-.comment-reply-link:focus {
-	background: none;
 }
 
 /* Positioning */
@@ -739,20 +693,11 @@ blockquote p {
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-area {
-	list-style: none;
-	margin-top: 25px;
-	padding: 25px;
-}
 .nav-links {
 	margin: 25px 0;
 }
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 .panel-default > .panel-heading {
 	border: none;
 	border-radius: 0;
@@ -768,14 +713,6 @@ blockquote p {
 /* Call to Action */
 .single .call-to-action {
 	display: none;
-}
-
-/* Buttons */
-.form-submit .submit {
-	margin-bottom: 10px;
-}
-#commentform p.form-submit {
-	float: none;
 }
 
 /*------------------------------------------------------------------------
@@ -819,9 +756,6 @@ blockquote p {
 .site-footer {
 	padding: 20px 0;
 }
-.site-info {
-	margin-bottom: -10px;
-}
 .footer-center-menu {
 	padding: 1em 0;
 }
@@ -839,16 +773,4 @@ blockquote p {
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
-}
-
-/* xs */
-.attribution {
-	padding-bottom: 30px;
-}
-
-/* md */
-@media (min-width: 992px) {
-	.attribution {
-		padding-bottom: 0;
-	}
 }
