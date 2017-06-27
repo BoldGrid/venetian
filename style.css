@@ -284,6 +284,9 @@ a:focus,
 .entry-title a {
 	padding: 0 1em;
 }
+h1.entry-title {
+	line-height: 1.4em;
+}
 
 /*-----------------------------------------------
 ## Buttons
