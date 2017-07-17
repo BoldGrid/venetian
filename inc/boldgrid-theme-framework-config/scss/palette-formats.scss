@@ -195,10 +195,7 @@ $rgba_4 : rgba($palette-primary_4, 0.50);
 		background: $palette-primary_4 !important;
 		color: $text-contrast-palette-primary_4;
 	}
-
-	/* sm */
-	@media (min-width: 768px) {
-		/* Dropdown Child Default */
+	@media only screen and (min-width: 768px) {
 		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 			color: $text-contrast-palette-primary_4;
 		}

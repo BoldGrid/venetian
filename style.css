@@ -80,7 +80,6 @@ body:before {
 	position: absolute;
 	top: 0;
 	z-index: -1;
-
 }
 body:after {
 	content: "";
@@ -96,7 +95,7 @@ body.mce-content-body:after {
 	border: none;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 body:before {
 	border-right: 280px solid transparent;
 	width: 38%;
@@ -106,8 +105,8 @@ body:after {
 	width: 38%;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	body:before {
 		border-right: 600px solid transparent;
 		width: 65%;
@@ -118,8 +117,8 @@ body:after {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	body:before {
 		border-right: 980px solid transparent;
 		width: 59%;
@@ -216,7 +215,7 @@ a:focus,
 	font-size: 30px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .site-title,
 .site-description,
 .navbar-default .navbar-nav,
@@ -229,8 +228,8 @@ a:focus,
 	text-align: center;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary,
 	.call-to-action .p-button-primary {
@@ -247,8 +246,8 @@ a:focus,
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -325,8 +324,8 @@ h1.entry-title {
 	margin-top: 0;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary,
 	.call-to-action .p-button-primary {
@@ -379,22 +378,22 @@ select {
 	padding-bottom: 40px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .call-to-action {
 	margin-bottom: 0;
 	margin-top: 50px;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.call-to-action {
 		margin-bottom: 75px;
 		margin-top: 75px;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.call-to-action {
 		margin-bottom: 200px;
 		margin-top: 200px;
@@ -408,7 +407,6 @@ select {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	background-color: none;
 	border: none;
@@ -422,8 +420,6 @@ select {
 .navbar-default .navbar-nav {
 	margin-left: -15px;
 }
-
-/* Links */
 .navbar-nav > li > a {
 	padding: 12px 10px;
 }
@@ -433,16 +429,12 @@ select {
 #primary-navbar {
 	padding-top: 20px;
 }
-
-/* Center Icons in Nav */
 #site-navigation ul li.menu-social a {
 	padding: 0;
 }
 .navbar-nav > li {
 	margin-top: 0;
 }
-
-/* Hover & Active */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
@@ -455,8 +447,8 @@ select {
 	background: none;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default {
 		float: right;
 	}
@@ -484,7 +476,8 @@ select {
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.menu-social {
 		margin-top: 15px;
 		padding-right: 15px;
@@ -581,8 +574,8 @@ blockquote p {
 	display: inline;
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.vertical-align-baseline {
 		align-items: baseline;
 		display: flex;
@@ -606,13 +599,13 @@ blockquote p {
 	position: relative;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .mod-alpha-2 {
 	margin-top: 35px;
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.mod-alpha-2 {
 		margin-top: 0;
 	}
@@ -646,7 +639,7 @@ blockquote p {
 	z-index: -10;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .background-beta:before {
 	border-right: 280px solid transparent;
 	width: 38%;
@@ -656,8 +649,8 @@ blockquote p {
 	width: 38%;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.background-beta:before {
 		border-right: 600px solid transparent;
 		width: 65%;
@@ -668,8 +661,8 @@ blockquote p {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.background-beta:before {
 		border-right: 980px solid transparent;
 		width: 59%;
