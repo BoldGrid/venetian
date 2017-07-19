@@ -50,7 +50,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 body {
 	position: relative;
 }
-.page-template-page_home.home .site-content {
+.page-template-page_home .site-content {
 	background: none;
 	padding-bottom: 0;
 }
