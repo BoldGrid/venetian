@@ -63,14 +63,10 @@ body {
 .post-title-hidden .site-content {
 	padding-top: 50px;
 }
-.hentry,
 .blog .site-content,
 .single .site-content,
 .archive .site-content {
 	margin: 0;
-}
-.hentry:first-child ~ .hentry {
-	margin-top: 50px;
 }
 body:before {
 	content: "";
@@ -265,7 +261,6 @@ a:focus,
 }
 .entry-title {
 	display: block;
-	margin: 60px 0;
 	position: relative;	
 	z-index: 1;
 }
@@ -691,6 +686,9 @@ blockquote p {
 ------------------------------------------------------------------------*/
 .nav-links {
 	margin: 25px 0;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
