@@ -6,7 +6,7 @@
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BoldGrid Theme best suited for Restaurant, Design, Photography, Property Management, Marketing, and Music sites.
+BoldGrid Theme best suited for Restaurant, Design, Photography, Marketing, and Music sites.
 
 ## Information & Changelog
 [BoldGrid Theme Info Page](https://www.boldgrid.com/themes/venetian/)
