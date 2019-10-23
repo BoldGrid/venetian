@@ -1,5 +1,5 @@
 # Venetian
-- Contributors: ciscorey, JimiRadabaugh, rramo012, timph
+- Contributors: ciscorey, JimiRadabaugh, rramo012, timph, nicolepaschen
 - Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-42
 - Requires at least: 4.3
 - Tested up to: 4.7.2
@@ -15,7 +15,7 @@ BoldGrid Theme best suited for Restaurant, Design, Photography, Marketing, and M
 Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
 
 ## Installation
-We offer an easy way to install our themes with great looking demo content using the [BoldGrid Inspirations](https://repo.boldgrid.com/boldgrid-inspirations.zip) Plugin. 
+We offer an easy way to install our themes with great looking demo content using the BoldGrid Inspirations Plugin.
 
 1. Go to [BoldGrid Central](https://www.boldgrid.com/central/start-for-free/plugins).
 2. Download the Inspirations plugin.
