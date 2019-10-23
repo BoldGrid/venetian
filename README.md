@@ -9,7 +9,7 @@
 BoldGrid Theme best suited for Restaurant, Design, Photography, Marketing, and Music sites.
 
 ## Information & Changelog
-[BoldGrid Theme Info Page](https://www.boldgrid.com/themes/venetian/)
+[BoldGrid Theme Info Page](https://www.boldgrid.com/wordpress-themes/venetian/)
 
 ## Description
 Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
@@ -17,7 +17,7 @@ Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid t
 ## Installation
 We offer an easy way to install our themes with great looking demo content using the [BoldGrid Inspirations](https://repo.boldgrid.com/boldgrid-inspirations.zip) Plugin. 
 
-1. Go to [BoldGrid Central](https://www.boldgrid.com/central/plugins).
+1. Go to [BoldGrid Central](https://www.boldgrid.com/central/start-for-free/plugins).
 2. Download the Inspirations plugin.
 3. In your admin panel, go to Appearance > Plugins and click the Browse button.
 4. Click Upload and Choose File, then select the .zip file. Click Install Now. Click Activate Plugin.
